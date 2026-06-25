@@ -30,14 +30,14 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/45 to-transparent" />
         <div className="absolute right-[-160px] top-[-160px] h-[620px] w-[620px] rounded-full bg-blue-600/20 blur-[160px]" />
 
-        <div className="relative z-10 flex min-h-[85vh] w-full flex-col px-6 py-8 lg:px-20 xl:px-28 2xl:px-36">
+        <div className="relative z-10 flex min-h-[85vh] w-full flex-col px-5 py-8 sm:px-6 lg:px-20 xl:px-28 2xl:px-36">
           <header className="flex items-start justify-between gap-8">
             <div>
-              <div className="text-3xl font-black tracking-[0.12em] lg:text-3xl">
+              <div className="text-3xl font-black tracking-[0.12em] max-[380px]:text-2xl lg:text-3xl">
                 ВШК АЛЬЯНС-ИМПОРТ
               </div>
 
-              <div className="mt-2 text-sm font-semibold tracking-[0.28em] text-white">
+              <div className="mt-2 text-xs font-semibold tracking-[0.28em] text-white sm:text-sm">
                 ГРУЗОВЫЕ ШИНЫ И ДИСКИ
               </div>
             </div>
@@ -83,23 +83,23 @@ export default function Home() {
           </header>
 
           <div className="flex flex-1 items-center py-10">
-            <div className="w-[630px]">
-              <h1 className="w-[630px] text-5xl font-black leading-[1.04] tracking-[-0.045em] text-white md:text-6xl">
+            <div className="w-full max-w-[630px]">
+              <h1 className="w-full text-5xl font-black leading-[1.04] tracking-[-0.045em] text-white max-[380px]:text-4xl md:text-6xl">
                 Грузовые шины
                 <br />
                 и диски
               </h1>
 
-              <p className="mt-8 w-[630px] text-lg leading-8 text-zinc-300">
+              <p className="mt-8 w-full max-w-[630px] text-lg leading-8 text-zinc-300 max-[380px]:text-base max-[380px]:leading-7">
                 Подбираем и поставляем грузовые шины и диски для тягачей,
                 самосвалов, прицепов и коммерческого транспорта. Работаем с
                 юридическими лицами, ИП и частными клиентами.
               </p>
 
-              <div className="mt-10 grid w-fit grid-cols-2 gap-5">
+              <div className="mt-10 flex w-full max-w-[630px] flex-col gap-4 sm:grid sm:grid-cols-2 sm:gap-5">
                 <a
                   href="/catalog"
-                  className="group flex h-16 w-[300px] items-center justify-center rounded-xl bg-blue-600 text-base font-bold shadow-[0_0_45px_rgba(37,99,235,0.45)] transition hover:bg-blue-500"
+                  className="group flex h-16 w-full items-center justify-center rounded-xl bg-blue-600 text-base font-bold shadow-[0_0_45px_rgba(37,99,235,0.45)] transition hover:bg-blue-500"
                 >
                   Подобрать шины
                 </a>
@@ -107,18 +107,18 @@ export default function Home() {
                 <button
                   type="button"
                   onClick={() => setShowModal(true)}
-                  className="h-16 w-[300px] rounded-xl border border-white/25 bg-black/20 text-base font-bold backdrop-blur transition hover:border-white/50 hover:bg-white/10"
+                  className="h-16 w-full rounded-xl border border-white/25 bg-black/20 text-base font-bold backdrop-blur transition hover:border-white/50 hover:bg-white/10"
                 >
                   Получить консультацию
                 </button>
               </div>
 
-              <div className="mt-5 grid w-fit grid-cols-2 gap-5">
+              <div className="mt-5 grid w-full max-w-[630px] grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5">
                 {brands.map((brand) => (
                   <a
                     key={brand.name}
                     href={brand.href}
-                    className="flex h-24 w-[300px] items-center justify-center rounded-xl bg-white px-8 shadow-lg transition hover:-translate-y-1 hover:shadow-[0_0_35px_rgba(255,255,255,0.2)]"
+                    className="flex h-24 w-full items-center justify-center rounded-xl bg-white px-8 shadow-lg transition hover:-translate-y-1 hover:shadow-[0_0_35px_rgba(255,255,255,0.2)]"
                   >
                     <Image
                       src={brand.src}
@@ -135,10 +135,10 @@ export default function Home() {
                 ))}
               </div>
 
-              <div className="mt-5 flex justify-center">
+              <div className="mt-5 flex w-full max-w-[630px] justify-center">
                 <a
                   href="/catalog?category=disks"
-                  className="flex h-24 w-[300px] flex-col items-center justify-center rounded-xl bg-white px-8 shadow-lg transition hover:-translate-y-1 hover:shadow-[0_0_35px_rgba(255,255,255,0.2)]"
+                  className="flex h-24 w-full flex-col items-center justify-center rounded-xl bg-white px-8 shadow-lg transition hover:-translate-y-1 hover:shadow-[0_0_35px_rgba(255,255,255,0.2)] sm:w-[300px]"
                 >
                   <Image
                     src="/disk-logo.png"
@@ -160,7 +160,7 @@ export default function Home() {
 
       <section
         id="about"
-        className="relative overflow-hidden border-t border-white/10 bg-[#070A0F] py-24"
+        className="relative overflow-hidden border-t border-white/10 bg-[#070A0F] py-16 md:py-24"
       >
         <div className="absolute right-[-200px] top-[-200px] h-[500px] w-[500px] rounded-full bg-blue-600/10 blur-[140px]" />
 
@@ -177,14 +177,14 @@ export default function Home() {
                 коммерческого транспорта
               </h2>
              {/* ФОТО СКЛАДА */}
-              <div className="mt-8 grid grid-cols-2 gap-4">
+              <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
                 <div className="overflow-hidden rounded-2xl">
                   <Image
                     src="/company/warehouse-1.png"
                     alt="Склад ВШК"
                     width={600}
                     height={400}
-                    className="h-56 w-full cursor-zoom-in object-cover transition duration-300 hover:scale-105"
+                    className="h-44 w-full cursor-zoom-in object-cover transition duration-300 hover:scale-105 sm:h-56"
                     onClick={() => setSelectedWarehouseImage("/company/warehouse-1.png")}
                   />
                 </div>
@@ -195,7 +195,7 @@ export default function Home() {
                     alt="Склад ВШК"
                     width={600}
                     height={400}
-                    className="h-56 w-full cursor-zoom-in object-cover transition duration-300 hover:scale-105"
+                    className="h-44 w-full cursor-zoom-in object-cover transition duration-300 hover:scale-105 sm:h-56"
                     onClick={() => setSelectedWarehouseImage("/company/warehouse-2.png")}
                   />
                 </div>
@@ -206,7 +206,7 @@ export default function Home() {
                     alt="Склад ВШК"
                     width={600}
                     height={400}
-                    className="h-56 w-full cursor-zoom-in object-cover transition duration-300 hover:scale-105"
+                    className="h-44 w-full cursor-zoom-in object-cover transition duration-300 hover:scale-105 sm:h-56"
                     onClick={() => setSelectedWarehouseImage("/company/warehouse-3.png")}
                   />
                 </div>
@@ -217,14 +217,14 @@ export default function Home() {
                     alt="Склад ВШК"
                     width={600}
                     height={400}
-                    className="h-56 w-full cursor-zoom-in object-cover transition duration-300 hover:scale-105"
+                    className="h-44 w-full cursor-zoom-in object-cover transition duration-300 hover:scale-105 sm:h-56"
                     onClick={() => setSelectedWarehouseImage("/company/warehouse-4.png")}
                   />
                 </div>
               </div>
             </div>
-            <div className="self-start rounded-3xl border border-white/10 bg-white/[0.03] p-8 backdrop-blur">
-              <p className="text-lg leading-8 text-zinc-300">
+            <div className="self-start rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur sm:p-8">
+              <p className="text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
                 ВШК «Альянс-Импорт» — поставщик грузовых шин и дисков для перевозчиков,
                 строительных компаний, ИП и частных клиентов. Более 15 лет мы работаем
                 на рынке грузовых шин и являемся официальным дистрибьютором бренда ANNAITE
@@ -233,7 +233,7 @@ export default function Home() {
                 и строительных работ.
               </p>
 
-              <p className="mt-5 text-lg leading-8 text-zinc-300">
+              <p className="mt-5 text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
                 Компания располагает сетью филиалов и складов в ключевых регионах России:
                 Владивосток, Хабаровск, Красноярск, Новосибирск, Екатеринбург, Москва,
                 Ростов-на-Дону и Краснодар. Это позволяет оперативно обеспечивать клиентов
@@ -246,7 +246,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden border-t border-white/10 bg-[#05070A] py-24">
+      <section className="relative overflow-hidden border-t border-white/10 bg-[#05070A] py-16 md:py-24">
         <div className="absolute left-[-200px] top-[-200px] h-[520px] w-[520px] rounded-full bg-blue-600/10 blur-[150px]" />
 
         <div className="relative w-full px-6 lg:px-20 xl:px-28 2xl:px-36">
@@ -255,7 +255,7 @@ export default function Home() {
               Почему выбирают нас
             </div>
 
-            <h2 className="text-4xl font-black leading-tight md:text-5xl">
+            <h2 className="text-4xl font-black leading-tight max-[380px]:text-3xl md:text-5xl">
               Надёжный поставщик
               <br />
               грузовых шин и дисков
@@ -305,7 +305,7 @@ export default function Home() {
 
       <section
         id="delivery"
-        className="relative overflow-hidden border-t border-white/10 bg-[#05070A] py-24"
+        className="relative overflow-hidden border-t border-white/10 bg-[#05070A] py-16 md:py-24"
       >
         <div className="relative w-full px-6 lg:px-20 xl:px-28 2xl:px-36">
           <div className="grid gap-12 lg:grid-cols-[0.75fr_1.25fr]">
@@ -314,7 +314,7 @@ export default function Home() {
                 ДОСТАВКА
               </div>
 
-              <h2 className="text-5xl font-black leading-[1.05] text-white">
+              <h2 className="text-4xl font-black leading-[1.05] text-white md:text-5xl">
                 Грузовых шин
                 <br />
                 и дисков
@@ -344,7 +344,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-[130px] overflow-hidden rounded-3xl border border-white/10 shadow-[0_0_60px_rgba(37,99,235,0.18)]">
+            <div className="overflow-hidden rounded-3xl border border-white/10 shadow-[0_0_60px_rgba(37,99,235,0.18)] lg:mt-[130px]">
               <Image
                 src="/delivery-banner.png"
                 alt="Доставка грузовых шин и дисков"
@@ -359,11 +359,11 @@ export default function Home() {
 
       {isContactsOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-6 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4 py-6 backdrop-blur-sm sm:px-6"
           onClick={() => setIsContactsOpen(false)}
         >
           <div
-            className="relative w-full max-w-2xl rounded-3xl border border-white/10 bg-[#080B12] p-8 text-white shadow-[0_0_80px_rgba(37,99,235,0.25)]"
+            className="relative max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-3xl border border-white/10 bg-[#080B12] p-6 text-white shadow-[0_0_80px_rgba(37,99,235,0.25)] sm:p-8"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -450,7 +450,7 @@ export default function Home() {
                 </div>
 
                 <div className="mt-8 text-zinc-500">Адрес</div>
-                <div className="mt-2 text-2xl font-black">
+                <div className="mt-2 text-xl font-black sm:text-2xl">
                   Новосибирск, ул. Петухова, 89Б
                 </div>
               </div>
@@ -500,7 +500,7 @@ export default function Home() {
             alt="Фото склада"
             width={1600}
             height={1200}
-            className="max-h-[95vh] w-auto rounded-2xl object-contain"
+            className="max-h-[95vh] max-w-full rounded-2xl object-contain"
           />
         </div>
       )}
