@@ -8,6 +8,7 @@ export default function Home() {
   const [showModal, setShowModal] = useState(false);
   const [isContactsOpen, setIsContactsOpen] = useState(false);
   const [selectedWarehouseImage, setSelectedWarehouseImage] = useState<string | null>(null);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const brands = [
   { name: "ROADTRACK", src: "/roadtrack.png", href: "/catalog?brand=roadtrack" },
   { name: "ANNAITE", src: "/annaite.png", href: "/catalog?brand=annaite" },
@@ -31,17 +32,23 @@ export default function Home() {
         <div className="absolute right-[-160px] top-[-160px] h-[620px] w-[620px] rounded-full bg-blue-600/20 blur-[160px]" />
 
         <div className="relative z-10 flex min-h-[85vh] w-full flex-col px-5 py-8 sm:px-6 lg:px-20 xl:px-28 2xl:px-36">
-          <header className="flex items-start justify-between gap-8">
+          <header className="flex items-start justify-between gap-6">
             <div>
-              <div className="text-3xl font-black tracking-[0.12em] max-[380px]:text-2xl lg:text-3xl">
+              <div className="text-[26px] font-black tracking-[0.08em] sm:text-3xl lg:text-3xl">
                 ВШК АЛЬЯНС-ИМПОРТ
               </div>
 
-              <div className="mt-2 text-xs font-semibold tracking-[0.28em] text-white sm:text-sm">
+              <div className="mt-1 text-[10px] font-semibold tracking-[0.18em] text-white sm:mt-2 sm:text-xs sm:tracking-[0.28em]">
                 ГРУЗОВЫЕ ШИНЫ И ДИСКИ
               </div>
             </div>
-
+              <button
+                type="button"
+                onClick={() => setIsMobileMenuOpen(true)}
+                className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 bg-black/20 text-2xl text-white backdrop-blur lg:hidden"
+              >
+                ☰
+              </button>
             <div className="hidden flex-col items-end gap-4 lg:flex">
               <nav className="flex items-center gap-3 text-base font-medium text-white">
                 <a
@@ -476,6 +483,79 @@ export default function Home() {
               </div>
             </div>
           </div>
+      )}
+
+      {isMobileMenuOpen && (
+        <div
+          className="fixed inset-0 z-50 bg-black/80 px-5 py-6 backdrop-blur-sm lg:hidden"
+          onClick={() => setIsMobileMenuOpen(false)}
+        >
+          <div
+            className="ml-auto w-full max-w-sm rounded-3xl border border-white/10 bg-[#080B12] p-6 shadow-[0_0_80px_rgba(37,99,235,0.25)]"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="mb-6 flex items-center justify-between">
+              <div className="text-lg font-black tracking-[0.12em]">
+                ВШК
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-3xl text-zinc-400"
+              >
+                ×
+              </button>
+            </div>
+
+            <div className="flex flex-col gap-3">
+              <a
+                href="#about"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4 font-bold"
+              >
+                О компании
+              </a>
+
+              <a
+                href="/catalog"
+                className="rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4 font-bold"
+              >
+                Каталог
+              </a>
+
+              <a
+                href="#delivery"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4 font-bold"
+              >
+                Доставка
+              </a>
+
+              <button
+                type="button"
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  setIsContactsOpen(true);
+                }}
+                className="rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4 text-left font-bold"
+              >
+                Контакты
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  setShowModal(true);
+                }}
+                className="rounded-xl bg-blue-600 px-5 py-4 font-bold"
+              >
+                Получить консультацию
+              </button>
+            </div>
+          </div>
+        </div>
       )}
 
       {showModal && (
