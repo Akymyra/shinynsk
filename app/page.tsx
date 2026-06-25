@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import ConsultationModal from "./components/ConsultationModal";
 
 export default function Home() {
@@ -9,6 +9,17 @@ export default function Home() {
   const [isContactsOpen, setIsContactsOpen] = useState(false);
   const [selectedWarehouseImage, setSelectedWarehouseImage] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    useEffect(() => {
+    if (showModal || isContactsOpen || isMobileMenuOpen || selectedWarehouseImage) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [showModal, isContactsOpen, isMobileMenuOpen, selectedWarehouseImage]);
   const brands = [
   { name: "ROADTRACK", src: "/roadtrack.png", href: "/catalog?brand=roadtrack" },
   { name: "ANNAITE", src: "/annaite.png", href: "/catalog?brand=annaite" },
@@ -366,7 +377,7 @@ export default function Home() {
 
       {isContactsOpen && (
         <div
-          className="fixed inset-0 z-100 flex items-center justify-center bg-black/70 px-4 py-6 backdrop-blur-sm sm:px-6"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 px-4 py-6 backdrop-blur-sm sm:px-6"
           onClick={() => setIsContactsOpen(false)}
         >
           <div
@@ -487,7 +498,7 @@ export default function Home() {
 
       {isMobileMenuOpen && (
         <div
-          className="fixed inset-0 z-100 bg-black/80 px-5 py-6 backdrop-blur-sm lg:hidden"
+          className="fixed inset-0 z-[100] bg-black/80 px-5 py-6 backdrop-blur-sm lg:hidden"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           <div
