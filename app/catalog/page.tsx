@@ -517,6 +517,7 @@ export default function CatalogPage() {
   const [selectedTireSize, setSelectedTireSize] = useState("");
   const [showModal, setShowModal] = useState(false);
   const [isContactsOpen, setIsContactsOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const catalogModels = useMemo(() => buildCatalogModels(tires as OldTire[]), []);
 
@@ -578,6 +579,14 @@ export default function CatalogPage() {
           <a href="/" className="text-2xl font-black tracking-[0.12em] text-white">
             ВШК АЛЬЯНС-ИМПОРТ
           </a>
+
+          <button
+            type="button"
+            onClick={() => setIsMobileMenuOpen(true)}
+            className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 bg-black/20 text-2xl text-white backdrop-blur md:hidden"
+          >
+            ☰
+          </button>
 
           <nav className="hidden items-center gap-3 text-base font-medium text-white md:flex">
             <a
@@ -917,6 +926,78 @@ export default function CatalogPage() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {isMobileMenuOpen && (
+        <div
+          className="fixed inset-0 z-50 bg-black/80 px-5 py-6 backdrop-blur-sm md:hidden"
+          onClick={() => setIsMobileMenuOpen(false)}
+        >
+          <div
+            className="ml-auto w-full max-w-sm rounded-3xl border border-white/10 bg-[#080B12] p-6 shadow-[0_0_80px_rgba(37,99,235,0.25)]"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="mb-6 flex items-center justify-between">
+              <div className="text-lg font-black tracking-[0.12em]">
+                ВШК
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-3xl text-zinc-400"
+              >
+                ×
+              </button>
+            </div>
+
+            <div className="flex flex-col gap-3">
+              <a
+                href="/"
+                className="rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4 font-bold"
+              >
+                Главная
+              </a>
+
+              <a
+                href="/catalog"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4 font-bold"
+              >
+                Каталог
+              </a>
+
+              <a
+                href="/#delivery"
+                className="rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4 font-bold"
+              >
+                Доставка
+              </a>
+
+              <button
+                type="button"
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  setIsContactsOpen(true);
+                }}
+                className="rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4 text-left font-bold"
+              >
+                Контакты
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  setShowModal(true);
+                }}
+                className="rounded-xl bg-blue-600 px-5 py-4 font-bold"
+              >
+                Получить консультацию
+              </button>
             </div>
           </div>
         </div>
