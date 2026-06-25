@@ -518,6 +518,17 @@ export default function CatalogPage() {
   const [showModal, setShowModal] = useState(false);
   const [isContactsOpen, setIsContactsOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  useEffect(() => {
+  if (showModal || isContactsOpen || isMobileMenuOpen) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "";
+  }
+
+  return () => {
+    document.body.style.overflow = "";
+  };
+}, [showModal, isContactsOpen, isMobileMenuOpen]);
 
   const catalogModels = useMemo(() => buildCatalogModels(tires as OldTire[]), []);
 
@@ -818,7 +829,7 @@ export default function CatalogPage() {
       )}
       {isContactsOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-6 backdrop-blur-sm"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 px-6 backdrop-blur-sm"
           onClick={() => setIsContactsOpen(false)}
         >
           <div
@@ -933,7 +944,7 @@ export default function CatalogPage() {
 
       {isMobileMenuOpen && (
         <div
-          className="fixed inset-0 z-50 bg-black/80 px-5 py-6 backdrop-blur-sm md:hidden"
+          className="fixed inset-0 z-[100] bg-black/80 px-5 py-6 backdrop-blur-sm md:hidden"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           <div

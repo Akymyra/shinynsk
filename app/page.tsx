@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import ConsultationModal from "./components/ConsultationModal";
 
 export default function Home() {
@@ -184,14 +184,14 @@ export default function Home() {
                 коммерческого транспорта
               </h2>
              {/* ФОТО СКЛАДА */}
-              <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4">
                 <div className="overflow-hidden rounded-2xl">
                   <Image
                     src="/company/warehouse-1.png"
                     alt="Склад ВШК"
                     width={600}
                     height={400}
-                    className="h-44 w-full cursor-zoom-in object-cover transition duration-300 hover:scale-105 sm:h-56"
+                    className="h-28 w-full cursor-zoom-in rounded-2xl object-cover transition duration-300 hover:scale-105 sm:h-56"
                     onClick={() => setSelectedWarehouseImage("/company/warehouse-1.png")}
                   />
                 </div>
@@ -202,7 +202,7 @@ export default function Home() {
                     alt="Склад ВШК"
                     width={600}
                     height={400}
-                    className="h-44 w-full cursor-zoom-in object-cover transition duration-300 hover:scale-105 sm:h-56"
+                    className="h-28 w-full cursor-zoom-in rounded-2xl object-cover transition duration-300 hover:scale-105 sm:h-56"
                     onClick={() => setSelectedWarehouseImage("/company/warehouse-2.png")}
                   />
                 </div>
@@ -213,7 +213,7 @@ export default function Home() {
                     alt="Склад ВШК"
                     width={600}
                     height={400}
-                    className="h-44 w-full cursor-zoom-in object-cover transition duration-300 hover:scale-105 sm:h-56"
+                    className="h-28 w-full cursor-zoom-in rounded-2xl object-cover transition duration-300 hover:scale-105 sm:h-56"
                     onClick={() => setSelectedWarehouseImage("/company/warehouse-3.png")}
                   />
                 </div>
@@ -224,7 +224,7 @@ export default function Home() {
                     alt="Склад ВШК"
                     width={600}
                     height={400}
-                    className="h-44 w-full cursor-zoom-in object-cover transition duration-300 hover:scale-105 sm:h-56"
+                    className="h-28 w-full cursor-zoom-in rounded-2xl object-cover transition duration-300 hover:scale-105 sm:h-56"
                     onClick={() => setSelectedWarehouseImage("/company/warehouse-4.png")}
                   />
                 </div>
@@ -366,7 +366,7 @@ export default function Home() {
 
       {isContactsOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4 py-6 backdrop-blur-sm sm:px-6"
+          className="fixed inset-0 z-100 flex items-center justify-center bg-black/70 px-4 py-6 backdrop-blur-sm sm:px-6"
           onClick={() => setIsContactsOpen(false)}
         >
           <div
@@ -487,7 +487,7 @@ export default function Home() {
 
       {isMobileMenuOpen && (
         <div
-          className="fixed inset-0 z-50 bg-black/80 px-5 py-6 backdrop-blur-sm lg:hidden"
+          className="fixed inset-0 z-100 bg-black/80 px-5 py-6 backdrop-blur-sm lg:hidden"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           <div
@@ -519,6 +519,7 @@ export default function Home() {
 
               <a
                 href="/catalog"
+                onClick={() => setIsMobileMenuOpen(false)}
                 className="rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4 font-bold"
               >
                 Каталог
