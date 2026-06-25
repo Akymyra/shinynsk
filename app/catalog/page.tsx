@@ -327,7 +327,7 @@ function TireDetailsModal({
 
         <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
           <div>
-            <div className="relative flex min-h-[360px] items-center justify-center overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.08] to-white/[0.015] p-8">
+            <div className="relative flex min-h-[240px] items-center justify-center overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.08] to-white/[0.015] p-5 md:min-h-[360px] md:p-8">
               {photos[activeImage] ? (
                 <Image
                   src={photos[activeImage]}
@@ -335,7 +335,7 @@ function TireDetailsModal({
                   width={700}
                   height={520}
                   onClick={() => setIsImageOpen(true)}
-                  className="max-h-[430px] w-auto cursor-zoom-in object-contain transition hover:scale-105"
+                  className="max-h-[300px] max-w-full cursor-zoom-in object-contain transition hover:scale-105 md:max-h-[430px]"
                 />
               ) : (
                 <div className="flex h-60 w-60 items-center justify-center rounded-full border border-white/10 bg-black/20 text-center text-sm font-bold uppercase tracking-[0.3em] text-zinc-500">
@@ -352,7 +352,7 @@ function TireDetailsModal({
                   key={index}
                   type="button"
                   onClick={() => setActiveImage(index)}
-                  className={`flex h-28 items-center justify-center rounded-2xl border bg-white/[0.03] transition hover:border-blue-400/50 ${
+                  className={`flex h-20 items-center justify-center rounded-2xl border bg-white/[0.03] transition hover:border-blue-400/50 md:h-28 ${
                     activeImage === index
                       ? "border-blue-500 ring-2 ring-blue-500/30"
                       : "border-white/10"
@@ -415,7 +415,7 @@ function TireDetailsModal({
               <button
                 type="button"
                 onClick={onConsultation}
-                className="h-14 w-[320px] rounded-xl bg-blue-600 font-bold transition hover:bg-blue-500"
+                className="h-14 w-full rounded-xl bg-blue-600 font-bold transition hover:bg-blue-500 sm:w-[320px]"
               >
                 Получить консультацию
               </button>
@@ -426,23 +426,55 @@ function TireDetailsModal({
         <div className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-5 md:p-6">
           <h3 className="text-2xl font-black">Доступные размеры</h3>
 
-          <div className="mt-5 overflow-hidden rounded-2xl border border-white/10">
-            <div className="grid grid-cols-4 bg-white/[0.06] text-sm font-black text-zinc-300">
-              <div className="p-4">Размер</div>
-              <div className="p-4">Ось</div>
-              <div className="p-4">Индекс нагрузки/скорости</div>
-              <div className="p-4">Слойность</div>
-            </div>
+          {/* Таблица для ПК */}
+<div className="mt-5 hidden overflow-hidden rounded-2xl border border-white/10 md:block">
+  <div className="grid grid-cols-4 bg-white/[0.06] text-sm font-black text-zinc-300">
+    <div className="p-4">Размер</div>
+    <div className="p-4">Ось</div>
+    <div className="p-4">Индекс нагрузки/скорости</div>
+    <div className="p-4">Слойность</div>
+  </div>
 
+  {tire.positions.map((position) => (
+    <div
+      key={`${position.size}-${position.loadSpeedIndex}-${position.axle}`}
+      className="grid grid-cols-4 border-t border-white/10 text-sm text-zinc-300"
+    >
+      <div className="p-4 font-black text-white">{position.size}</div>
+      <div className="p-4">{position.axle}</div>
+      <div className="p-4">{getLoadSpeed(position)}</div>
+      <div className="p-4">{getPly(position)}</div>
+    </div>
+  ))}
+</div>
+
+          {/* Карточки для телефона */}
+          <div className="mt-5 space-y-3 md:hidden">
             {tire.positions.map((position) => (
               <div
-                key={`${position.size}-${position.loadSpeedIndex}-${position.axle}`}
-                className="grid grid-cols-4 border-t border-white/10 text-sm text-zinc-300"
+                key={`${position.size}-${position.loadSpeedIndex}-${position.axle}-mobile`}
+                className="rounded-2xl border border-white/10 bg-white/[0.03] p-4"
               >
-                <div className="p-4 font-black text-white">{position.size}</div>
-                <div className="p-4">{position.axle}</div>
-                <div className="p-4">{getLoadSpeed(position)}</div>
-                <div className="p-4">{getPly(position)}</div>
+                <div className="text-lg font-black text-white">{position.size}</div>
+
+                <div className="mt-4 grid gap-3">
+                  <div className="rounded-xl border border-white/10 bg-black/20 p-3">
+                    <div className="text-xs text-zinc-500">Ось</div>
+                    <div className="mt-1 font-bold text-white">{position.axle}</div>
+                  </div>
+
+                  <div className="rounded-xl border border-white/10 bg-black/20 p-3">
+                    <div className="text-xs text-zinc-500">Индекс нагрузки/скорости</div>
+                    <div className="mt-1 font-bold text-white">
+                      {getLoadSpeed(position)}
+                    </div>
+                  </div>
+
+                  <div className="rounded-xl border border-white/10 bg-black/20 p-3">
+                    <div className="text-xs text-zinc-500">Слойность</div>
+                    <div className="mt-1 font-bold text-white">{getPly(position)}</div>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
