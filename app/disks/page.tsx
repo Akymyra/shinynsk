@@ -177,11 +177,19 @@ export default function DisksPage() {
                 className="flex h-full flex-col overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] transition hover:-translate-y-1 hover:border-blue-400/50 hover:bg-white/[0.06]"
               >
                 <div className="flex h-48 items-center justify-center border-b border-white/10 bg-gradient-to-br from-white/[0.07] to-white/[0.015] p-6">
-                  <div className="flex h-32 w-32 items-center justify-center rounded-full border border-white/10 bg-black/20 text-center text-xs font-bold uppercase tracking-[0.25em] text-zinc-500">
-                    Фото
-                    <br />
-                    скоро
-                  </div>
+                  {disk.images?.[0] ? (
+                    <img
+                      src={disk.images[0]}
+                      alt={disk.fullSpec}
+                      className="h-40 w-full object-contain"
+                    />
+                  ) : (
+                    <div className="flex h-32 w-32 items-center justify-center rounded-full border border-white/10 bg-black/20 text-center text-xs font-bold uppercase tracking-[0.25em] text-zinc-500">
+                      Фото
+                      <br />
+                      скоро
+                    </div>
+                  )}
                 </div>
 
                 <div className="flex flex-1 flex-col p-6">
