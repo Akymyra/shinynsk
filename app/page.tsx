@@ -21,17 +21,17 @@ export default function Home() {
     };
   }, [showModal, isContactsOpen, isMobileMenuOpen, selectedWarehouseImage]);
   const brands = [
-  { name: "ROADTRACK", src: "/roadtrack.png", href: "/catalog?brand=roadtrack" },
-  { name: "ANNAITE", src: "/annaite.png", href: "/catalog?brand=annaite" },
-  { name: "KAPSEN", src: "/kapsen.png", href: "/catalog?brand=kapsen" },
-  { name: "AUFINE", src: "/aufine.png", href: "/catalog?brand=aufine" },
+  { name: "ROADTRACK", src: "/roadtrack.webp", href: "/catalog?brand=roadtrack" },
+  { name: "ANNAITE", src: "/annaite.webp", href: "/catalog?brand=annaite" },
+  { name: "KAPSEN", src: "/kapsen.webp", href: "/catalog?brand=kapsen" },
+  { name: "AUFINE", src: "/aufine.webp", href: "/catalog?brand=aufine" },
   ];
 
   return (
     <main className="min-h-screen bg-[#05070A] text-white">
       <section className="relative min-h-screen overflow-hidden">
         <Image
-          src="/hero-bg.png"
+          src="/hero-bg.webp"
           alt="Грузовые шины и фура"
           fill
           priority
@@ -159,7 +159,7 @@ export default function Home() {
                   className="flex h-24 w-full flex-col items-center justify-center rounded-xl bg-white px-8 shadow-lg transition hover:-translate-y-1 hover:shadow-[0_0_35px_rgba(255,255,255,0.2)] sm:w-[300px]"
                 >
                   <Image
-                    src="/disk-logo.png"
+                    src="/disk-logo.webp"
                     alt="YongZheng"
                     width={220}
                     height={70}
@@ -364,7 +364,7 @@ export default function Home() {
 
             <div className="overflow-hidden rounded-3xl border border-white/10 shadow-[0_0_60px_rgba(37,99,235,0.18)] lg:mt-[130px]">
               <Image
-                src="/delivery-banner.png"
+                src="/delivery-banner.webp"
                 alt="Доставка грузовых шин и дисков"
                 width={1200}
                 height={800}
