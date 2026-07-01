@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import { disks } from "../../data/disks";
 import ConsultationModal from "../components/ConsultationModal";
@@ -10,9 +11,14 @@ export default function DisksPage() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedRadius, setSelectedRadius] = useState("");
-
+  const [selectedDiskImage, setSelectedDiskImage] = useState<string | null>(null);
   useEffect(() => {
-    if (showModal || isContactsOpen || isMobileMenuOpen) {
+    if (
+      showModal ||
+      isContactsOpen ||
+      isMobileMenuOpen ||
+      selectedDiskImage
+    ) {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "";
@@ -21,7 +27,7 @@ export default function DisksPage() {
     return () => {
       document.body.style.overflow = "";
     };
-  }, [showModal, isContactsOpen, isMobileMenuOpen]);
+  }, [showModal, isContactsOpen, isMobileMenuOpen, selectedDiskImage]);
 
   const radiuses = useMemo(() => {
     return Array.from(new Set(disks.map((disk) => disk.size.split("x")[0]))).sort(
@@ -178,10 +184,13 @@ export default function DisksPage() {
               >
                 <div className="flex h-48 items-center justify-center border-b border-white/10 bg-gradient-to-br from-white/[0.07] to-white/[0.015] p-6">
                   {disk.images?.[0] ? (
-                    <img
+                    <Image
                       src={disk.images[0]}
                       alt={disk.fullSpec}
-                      className="h-40 w-full object-contain"
+                      width={360}
+                      height={260}
+                      className="h-40 w-full cursor-zoom-in object-contain transition duration-300 hover:scale-105"
+                      onClick={() => setSelectedDiskImage(disk.images?.[0] || null)}
                     />
                   ) : (
                     <div className="flex h-32 w-32 items-center justify-center rounded-full border border-white/10 bg-black/20 text-center text-xs font-bold uppercase tracking-[0.25em] text-zinc-500">
@@ -372,6 +381,28 @@ export default function DisksPage() {
       )}
 
       {showModal && <ConsultationModal onClose={() => setShowModal(false)} />}
+        {selectedDiskImage && (
+          <div
+            className="fixed inset-0 z-[999] flex items-center justify-center bg-black/95 p-6"
+            onClick={() => setSelectedDiskImage(null)}
+          >
+            <button
+              type="button"
+              className="absolute right-6 top-4 text-4xl text-white transition hover:text-blue-300"
+              onClick={() => setSelectedDiskImage(null)}
+            >
+              ×
+            </button>
+
+            <Image
+              src={selectedDiskImage}
+              alt="Фото диска"
+              width={1600}
+              height={1200}
+              className="max-h-[95vh] max-w-full rounded-2xl object-contain"
+            />
+          </div>
+        )}
     </main>
   );
 }
