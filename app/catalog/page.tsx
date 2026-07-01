@@ -41,10 +41,10 @@ type OldTire = {
 };
 
 const brands = [
-  { name: "ROADTRACK", src: "/roadtrack.png" },
-  { name: "ANNAITE", src: "/annaite.png" },
-  { name: "KAPSEN", src: "/kapsen.png" },
-  { name: "AUFINE", src: "/aufine.png" },
+  { name: "ROADTRACK", src: "/roadtrack.webp" },
+  { name: "ANNAITE", src: "/annaite.webp" },
+  { name: "KAPSEN", src: "/kapsen.webp" },
+  { name: "AUFINE", src: "/aufine.webp" },
 ];
 
 function normalizeSizeSearch(value: string) {

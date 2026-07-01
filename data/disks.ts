@@ -23,7 +23,7 @@ export const disks: Disk[] = [
     pcd: "335",
     thickness: "14 мм",
     fullSpec: "22.5 х 9.00 10 отв.-26мм. ET175 D281 раст. 335 диск (14мм)",
-    images: ["/disks/yongzheng/22-5x9-00-10h-et175-d281-pcd335-14mm.png"],
+    images: ["/disks/yongzheng/22-5x9-00-10h-et175-d281-pcd335-14mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -35,7 +35,7 @@ export const disks: Disk[] = [
     pcd: "335",
     thickness: "16 мм",
     fullSpec: "22.5 х 9.00 10 отв.-26мм. ET175 D281 раст. 335 диск (16мм)",
-    images: ["/disks/yongzheng/22-5x9-00-10h-et175-d281-pcd335-16mm.png"],
+    images: ["/disks/yongzheng/22-5x9-00-10h-et175-d281-pcd335-16mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -47,7 +47,7 @@ export const disks: Disk[] = [
     pcd: "335",
     thickness: "18 мм",
     fullSpec: "22.5 х 9.00 10 отв.-26мм. ET175 D281 раст. 335 диск (18мм)",
-    images: ["/disks/yongzheng/22-5x9-00-10h-et175-d281-pcd335-18mm.png"],
+    images: ["/disks/yongzheng/22-5x9-00-10h-et175-d281-pcd335-18mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -59,7 +59,7 @@ export const disks: Disk[] = [
     pcd: "285.75",
     thickness: "16 мм",
     fullSpec: "22.5 х 8.25 10 отв.-26мм. ET168 D221 раст. 285,75 диск (16мм)",
-    images: ["/disks/yongzheng/22-5x8-25-10h-et168-d221-pcd285-75-16mm.png"],
+    images: ["/disks/yongzheng/22-5x8-25-10h-et168-d221-pcd285-75-16mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -71,7 +71,7 @@ export const disks: Disk[] = [
     pcd: "285",
     thickness: "16 мм",
     fullSpec: "22.5 х 8.25 8 отв.-32мм. ET165 D221 раст. 285 диск (16мм)",
-    images: ["/disks/yongzheng/22-5x8-25-8h-et165-d221-pcd285-16mm.png"],
+    images: ["/disks/yongzheng/22-5x8-25-8h-et165-d221-pcd285-16mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -83,7 +83,7 @@ export const disks: Disk[] = [
     pcd: "335",
     thickness: "14 мм",
     fullSpec: "22.5 х 7.50 10 отв.-26мм. ET162 D281 раст. 335 диск (14мм)",
-    images: ["/disks/yongzheng/22-5x7-50-10h-et162-d281-pcd335-14mm.png"],
+    images: ["/disks/yongzheng/22-5x7-50-10h-et162-d281-pcd335-14mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -95,7 +95,7 @@ export const disks: Disk[] = [
     pcd: "335",
     thickness: "16 мм",
     fullSpec: "22.5 х 8.25 10 отв.-26мм. ET168 D281 раст. 335 диск (16мм)",
-    images: ["/disks/yongzheng/22-5x8-25-10h-et168-d281-pcd335-16mm.png"],
+    images: ["/disks/yongzheng/22-5x8-25-10h-et168-d281-pcd335-16mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -107,7 +107,7 @@ export const disks: Disk[] = [
     pcd: "335",
     thickness: "16 мм",
     fullSpec: "22.5 х 11.75 10 отв.-26мм. ET120 D281 раст. 335 диск (16мм)",
-    images: ["/disks/yongzheng/22-5x11-75-10h-et120-d281-pcd335-16mm.png"],
+    images: ["/disks/yongzheng/22-5x11-75-10h-et120-d281-pcd335-16mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -119,7 +119,7 @@ export const disks: Disk[] = [
     pcd: "335",
     thickness: "16 мм",
     fullSpec: "22.5 х 11.75 10 отв.-26мм. ET0 D281 раст. 335 диск (16мм)",
-    images: ["/disks/yongzheng/22-5x11-75-10h-et0-d281-pcd335-16mm.png"],
+    images: ["/disks/yongzheng/22-5x11-75-10h-et0-d281-pcd335-16mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -131,7 +131,7 @@ export const disks: Disk[] = [
     pcd: "225",
     thickness: "Уточняйте",
     fullSpec: "17.5 х 6.75 10 отв.-26мм. ET135 D176 раст. 225 диск",
-    images: ["/disks/yongzheng/17-5x6-75-10h-et135-d176-pcd225-.png"],
+    images: ["/disks/yongzheng/17-5x6-75-10h-et135-d176-pcd225-.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -143,7 +143,7 @@ export const disks: Disk[] = [
     pcd: "222.5",
     thickness: "Уточняйте",
     fullSpec: "17.5 х 6.00 6 отв.-32,5мм. ET135 D164 раст. 222,5 диск",
-    images: ["/disks/yongzheng/17-5x6-00-6h-et135-d164-pcd222-5-.png"],
+    images: ["/disks/yongzheng/17-5x6-00-6h-et135-d164-pcd222-5-.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -155,7 +155,7 @@ export const disks: Disk[] = [
     pcd: "222.25",
     thickness: "Уточняйте",
     fullSpec: "19.5 х 6.75 6 отв.-32мм. ET145 D164 раст. 222,25 диск",
-    images: ["/disks/yongzheng/19-5x6-75-6h-et145-d164-pcd222-25-.png"],
+    images: ["/disks/yongzheng/19-5x6-75-6h-et145-d164-pcd222-25-.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -167,7 +167,7 @@ export const disks: Disk[] = [
     pcd: "275",
     thickness: "Уточняйте",
     fullSpec: "19.5 х 6.75 8 отв.-26мм. ET145 D221 раст. 275 диск",
-    images: ["/disks/yongzheng/19-5x6-75-8h-et145-d221-pcd275-.png"],
+    images: ["/disks/yongzheng/19-5x6-75-8h-et145-d221-pcd275-.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -180,7 +180,7 @@ export const disks: Disk[] = [
     thickness: "Уточняйте",
     note: "Под клин",
     fullSpec: "22.5 х 7.50 ET110 D472 (под клин)",
-    images: ["/disks/yongzheng/22-5x7-50-Уточняйтеh-et110-d472-pcd--wedge.png"],
+    images: ["/disks/yongzheng/22-5x7-50-Уточняйтеh-et110-d472-pcd--wedge.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -193,7 +193,7 @@ export const disks: Disk[] = [
     thickness: "Уточняйте",
     note: "Под клин",
     fullSpec: "22.5 х 8.25 ET120 D472 (под клин)",
-    images: ["/disks/yongzheng/22-5x8-25-Уточняйтеh-et120-d472-pcd--wedge.png"],
+    images: ["/disks/yongzheng/22-5x8-25-Уточняйтеh-et120-d472-pcd--wedge.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -205,7 +205,7 @@ export const disks: Disk[] = [
     pcd: "335",
     thickness: "14 мм",
     fullSpec: "8.50-20 10 отв.-26мм. ET175 D281 раст. 335 диск (14мм)",
-    images: ["/disks/yongzheng/8-50-20-10h-et175-d281-pcd335-14mm.png"],
+    images: ["/disks/yongzheng/8-50-20-10h-et175-d281-pcd335-14mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -217,7 +217,7 @@ export const disks: Disk[] = [
     pcd: "335",
     thickness: "14 мм",
     fullSpec: "7.50-20 10 отв.-26мм. ET165 D281 раст. 335 диск (14мм)",
-    images: ["/disks/yongzheng/7-50-20-10h-et165-d281-pcd335-14mm.png"],
+    images: ["/disks/yongzheng/7-50-20-10h-et165-d281-pcd335-14mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -229,7 +229,7 @@ export const disks: Disk[] = [
     pcd: "285.75",
     thickness: "14 мм",
     fullSpec: "22.5 х 11.75 10 отв.-26мм. ET120 D221 раст. 285,75 диск (14мм)",
-    images: ["/disks/yongzheng/22-5x11-75-10h-et120-d221-pcd285-75-14mm.png"],
+    images: ["/disks/yongzheng/22-5x11-75-10h-et120-d221-pcd285-75-14mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -242,7 +242,7 @@ export const disks: Disk[] = [
     thickness: "16 мм",
     note: "Внешний вентиль",
     fullSpec: "22.5 х 9.00 10 отв.-26мм. ET175 D281 раст. 335 диск (16мм) внешний вентиль",
-    images: ["/disks/yongzheng/22-5x9-00-10h-et175-d281-pcd335-16mm-external-valve.png"],
+    images: ["/disks/yongzheng/22-5x9-00-10h-et175-d281-pcd335-16mm-external-valve.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -254,7 +254,7 @@ export const disks: Disk[] = [
     pcd: "208",
     thickness: "Уточняйте",
     fullSpec: "17.5 х 6.00 5 отв.-32,5мм. ET125 D150 раст. 208 диск",
-    images: ["/disks/yongzheng/17-5x6-00-5h-et125-d150-pcd208-.png"],
+    images: ["/disks/yongzheng/17-5x6-00-5h-et125-d150-pcd208-.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -266,7 +266,7 @@ export const disks: Disk[] = [
     pcd: "222.25",
     thickness: "Уточняйте",
     fullSpec: "17.5 х 6.75 6 отв.-32,5мм. ET135 D164 раст. 222,25 диск",
-    images: ["/disks/yongzheng/17-5x6-75-6h-et135-d164-pcd222-25-.png"],
+    images: ["/disks/yongzheng/17-5x6-75-6h-et135-d164-pcd222-25-.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -278,7 +278,7 @@ export const disks: Disk[] = [
     pcd: "225",
     thickness: "Уточняйте",
     fullSpec: "19.5 х 6.75 10 отв.-26мм. ET145 D176 раст. 225 диск",
-    images: ["/disks/yongzheng/19-5x6-75-10h-et145-d176-pcd225-.png"],
+    images: ["/disks/yongzheng/19-5x6-75-10h-et145-d176-pcd225-.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -290,7 +290,7 @@ export const disks: Disk[] = [
     pcd: "335",
     thickness: "16 мм",
     fullSpec: "8.50-24 10 отв.-26мм. ET180 D281 раст. 335 диск (16мм)",
-    images: ["/disks/yongzheng/8-50-24-10h-et180-d281-pcd335-16mm.png"],
+    images: ["/disks/yongzheng/8-50-24-10h-et180-d281-pcd335-16mm.webp"],
   },
   {
     brand: "YONGZHENG",
@@ -302,6 +302,6 @@ export const disks: Disk[] = [
     pcd: "335",
     thickness: "14 мм",
     fullSpec: "22.5 х 11.75 10 отв.-26мм. ET135 D281 раст. 335 диск (14мм)",
-    images: ["/disks/yongzheng/22-5x11-75-10h-et135-d281-pcd335-14mm.png"],
+    images: ["/disks/yongzheng/22-5x11-75-10h-et135-d281-pcd335-14mm.webp"],
   },
 ];

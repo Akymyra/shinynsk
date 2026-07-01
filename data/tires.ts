@@ -20,7 +20,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "K",
     ply: "18PR",
-    images: ["/tires/annaite/700-1.png"]
+    images: ["/tires/annaite/700-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -31,7 +31,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -42,7 +42,7 @@ export const tires: Tire[] = [
     loadIndex: "160/157",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/annaite/787-1.png"]
+    images: ["/tires/annaite/787-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -53,7 +53,7 @@ export const tires: Tire[] = [
     loadIndex: "160/157",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/annaite/309-1.png"]
+    images: ["/tires/annaite/309-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -64,7 +64,7 @@ export const tires: Tire[] = [
     loadIndex: "160/157",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -75,7 +75,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -86,7 +86,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/annaite/302-1.png"]
+    images: ["/tires/annaite/302-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -97,7 +97,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "K",
     ply: "18PR",
-    images: ["/tires/annaite/700-1.png"]
+    images: ["/tires/annaite/700-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -108,7 +108,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/annaite/786-1.png"]
+    images: ["/tires/annaite/786-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -119,7 +119,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/annaite/755-1.png"]
+    images: ["/tires/annaite/755-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -130,7 +130,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "D",
     ply: "18PR",
-    images: ["/tires/annaite/399-1.png"]
+    images: ["/tires/annaite/399-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -141,7 +141,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -152,7 +152,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/annaite/302-1.png"]
+    images: ["/tires/annaite/302-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -163,7 +163,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/annaite/306-1.png"]
+    images: ["/tires/annaite/306-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -174,7 +174,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "J",
     ply: "20PR",
-    images: ["/tires/annaite/309-1.png"]
+    images: ["/tires/annaite/309-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -185,7 +185,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "K",
     ply: "18PR",
-    images: ["/tires/annaite/386-1.png"]
+    images: ["/tires/annaite/386-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -196,7 +196,7 @@ export const tires: Tire[] = [
     ply: "16PR",
     loadIndex: "146/143",
     speedIndex: "M",
-    images: ["/tires/annaite/100-1.png"]
+    images: ["/tires/annaite/100-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -207,7 +207,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "L",
     ply: "16PR",
-    images: ["/tires/annaite/607-1.png"]
+    images: ["/tires/annaite/607-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -218,7 +218,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/600-1.png"]
+    images: ["/tires/annaite/600-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -229,7 +229,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/660-1.png"]
+    images: ["/tires/annaite/660-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -240,7 +240,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "L",
     ply: "16PR",
-    images: ["/tires/annaite/617-1.png"]
+    images: ["/tires/annaite/617-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -251,7 +251,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/785-1.png"]
+    images: ["/tires/annaite/785-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -262,7 +262,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -273,7 +273,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -284,7 +284,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/786-1.png"]
+    images: ["/tires/annaite/786-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -295,7 +295,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "K",
     ply: "18PR",
-    images: ["/tires/annaite/386-1.png"]
+    images: ["/tires/annaite/386-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -306,7 +306,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/annaite/302-1.png"]
+    images: ["/tires/annaite/302-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -317,7 +317,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -328,7 +328,7 @@ export const tires: Tire[] = [
     loadIndex: "144/142",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -339,7 +339,7 @@ export const tires: Tire[] = [
     loadIndex: "149/146",
     speedIndex: "K",
     ply: "18PR",
-    images: ["/tires/annaite/308-1.png"]
+    images: ["/tires/annaite/308-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -350,7 +350,7 @@ export const tires: Tire[] = [
     loadIndex: "149/146",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -361,7 +361,7 @@ export const tires: Tire[] = [
     loadIndex: "149/146",
     speedIndex: "K",
     ply: "18PR",
-    images: ["/tires/annaite/700-1.png"]
+    images: ["/tires/annaite/700-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -372,7 +372,7 @@ export const tires: Tire[] = [
     loadIndex: "149/146",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/annaite/302-1.png"]
+    images: ["/tires/annaite/302-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -383,7 +383,7 @@ export const tires: Tire[] = [
     loadIndex: "144/142",
     speedIndex: "L",
     ply: "16PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -394,7 +394,7 @@ export const tires: Tire[] = [
     loadIndex: "139/137",
     speedIndex: "L",
     ply: "16PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -405,7 +405,7 @@ export const tires: Tire[] = [
     loadIndex: "128/124",
     speedIndex: "K",
     ply: "16PR",
-    images: ["/tires/annaite/386-1.png"]
+    images: ["/tires/annaite/386-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -416,7 +416,7 @@ export const tires: Tire[] = [
     loadIndex: "128/124",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/306-1.png"]
+    images: ["/tires/annaite/306-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -427,7 +427,7 @@ export const tires: Tire[] = [
     loadIndex: "128/124",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -438,7 +438,7 @@ export const tires: Tire[] = [
     loadIndex: "124/120",
     speedIndex: "L",
     ply: "16PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -449,7 +449,7 @@ export const tires: Tire[] = [
     loadIndex: "124/120",
     speedIndex: "K",
     ply: "16PR",
-    images: ["/tires/annaite/386-1.png"]
+    images: ["/tires/annaite/386-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -460,7 +460,7 @@ export const tires: Tire[] = [
     loadIndex: "118/114",
     speedIndex: "L",
     ply: "14PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -471,7 +471,7 @@ export const tires: Tire[] = [
     loadIndex: "118/114",
     speedIndex: "K",
     ply: "14PR",
-    images: ["/tires/annaite/386-1.png"]
+    images: ["/tires/annaite/386-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -482,7 +482,7 @@ export const tires: Tire[] = [
     loadIndex: "110/105",
     speedIndex: "L",
     ply: "12PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -493,7 +493,7 @@ export const tires: Tire[] = [
     loadIndex: "165",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/annaite/716-1.png"]
+    images: ["/tires/annaite/716-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -504,7 +504,7 @@ export const tires: Tire[] = [
     loadIndex: "160",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/annaite/396-1.png"]
+    images: ["/tires/annaite/396-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -515,7 +515,7 @@ export const tires: Tire[] = [
     loadIndex: "160",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/annaite/397-1.png"]
+    images: ["/tires/annaite/397-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -526,7 +526,7 @@ export const tires: Tire[] = [
     loadIndex: "160",
     speedIndex: "J",
     ply: "20PR",
-    images: ["/tires/annaite/706-1.png"]
+    images: ["/tires/annaite/706-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -537,7 +537,7 @@ export const tires: Tire[] = [
     loadIndex: "156",
     speedIndex: "J",
     ply: "18PR",
-    images: ["/tires/annaite/706-1.png"]
+    images: ["/tires/annaite/706-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -548,7 +548,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/annaite/700-1.png"]
+    images: ["/tires/annaite/700-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -559,7 +559,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "M",
     ply: "20PR",
-    images: ["/tires/annaite/766-1.png"]
+    images: ["/tires/annaite/766-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -570,7 +570,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "M",
     ply: "20PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -581,7 +581,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "M",
     ply: "20PR",
-    images: ["/tires/annaite/786-1.png"]
+    images: ["/tires/annaite/786-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -592,7 +592,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "M",
     ply: "20PR",
-    images: ["/tires/annaite/886-1.png"]
+    images: ["/tires/annaite/886-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -603,7 +603,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "M",
     ply: "20PR",
-    images: ["/tires/annaite/785-1.png"]
+    images: ["/tires/annaite/785-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -614,7 +614,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "M",
     ply: "20PR",
-    images: ["/tires/annaite/300-1.png"]
+    images: ["/tires/annaite/300-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -625,7 +625,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "M",
     ply: "20PR",
-    images: ["/tires/annaite/755-1.png"]
+    images: ["/tires/annaite/755-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -636,7 +636,7 @@ export const tires: Tire[] = [
     loadIndex: "156/150",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -647,7 +647,7 @@ export const tires: Tire[] = [
     loadIndex: "156/150",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/annaite/785-1.png"]
+    images: ["/tires/annaite/785-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -658,7 +658,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/annaite/755-1.png"]
+    images: ["/tires/annaite/755-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -669,7 +669,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/annaite/785-1.png"]
+    images: ["/tires/annaite/785-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -680,7 +680,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/annaite/766-1.png"]
+    images: ["/tires/annaite/766-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -691,7 +691,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/annaite/786-1.png"]
+    images: ["/tires/annaite/786-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -702,7 +702,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -713,7 +713,7 @@ export const tires: Tire[] = [
     loadIndex: "154/151",
     speedIndex: "K",
     ply: "18PR",
-    images: ["/tires/annaite/700-1.png"]
+    images: ["/tires/annaite/700-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -724,7 +724,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "L",
     ply: "16PR",
-    images: ["/tires/annaite/600-1.png"]
+    images: ["/tires/annaite/600-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -735,7 +735,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "L",
     ply: "16PR",
-    images: ["/tires/annaite/660-1.png"]
+    images: ["/tires/annaite/660-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -746,7 +746,7 @@ export const tires: Tire[] = [
     loadIndex: "146/144",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/785-1.png"]
+    images: ["/tires/annaite/785-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -757,7 +757,7 @@ export const tires: Tire[] = [
     loadIndex: "150/148",
     speedIndex: "J",
     ply: "18PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -768,7 +768,7 @@ export const tires: Tire[] = [
     loadIndex: "148/145",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -779,7 +779,7 @@ export const tires: Tire[] = [
     loadIndex: "148/145",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/annaite/785-1.png"]
+    images: ["/tires/annaite/785-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -790,7 +790,7 @@ export const tires: Tire[] = [
     loadIndex: "143/141",
     speedIndex: "J",
     ply: "18PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -801,7 +801,7 @@ export const tires: Tire[] = [
     loadIndex: "140/138",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/785-1.png"]
+    images: ["/tires/annaite/785-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -812,7 +812,7 @@ export const tires: Tire[] = [
     loadIndex: "140/137",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -823,7 +823,7 @@ export const tires: Tire[] = [
     loadIndex: "143/141",
     speedIndex: "J",
     ply: "18PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -834,7 +834,7 @@ export const tires: Tire[] = [
     loadIndex: "136/134",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/785-1.png"]
+    images: ["/tires/annaite/785-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -845,7 +845,7 @@ export const tires: Tire[] = [
     loadIndex: "143/141",
     speedIndex: "J",
     ply: "18PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -856,7 +856,7 @@ export const tires: Tire[] = [
     loadIndex: "143/141",
     speedIndex: "J",
     ply: "18PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -867,7 +867,7 @@ export const tires: Tire[] = [
     loadIndex: "132/130",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/785-1.png"]
+    images: ["/tires/annaite/785-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -878,7 +878,7 @@ export const tires: Tire[] = [
     loadIndex: "136/134",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/785-1.png"]
+    images: ["/tires/annaite/785-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -889,7 +889,7 @@ export const tires: Tire[] = [
     loadIndex: "128/126",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -900,7 +900,7 @@ export const tires: Tire[] = [
     loadIndex: "128/126",
     speedIndex: "M",
     ply: "14PR",
-    images: ["/tires/annaite/785-1.png"]
+    images: ["/tires/annaite/785-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -911,7 +911,7 @@ export const tires: Tire[] = [
     loadIndex: "124/122",
     speedIndex: "M",
     ply: "14PR",
-    images: ["/tires/annaite/785-1.png"]
+    images: ["/tires/annaite/785-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -922,7 +922,7 @@ export const tires: Tire[] = [
     loadIndex: "124/122",
     speedIndex: "M",
     ply: "14PR",
-    images: ["/tires/annaite/366-1.png"]
+    images: ["/tires/annaite/366-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -933,7 +933,7 @@ export const tires: Tire[] = [
     loadIndex: "107/105",
     speedIndex: "R",
     ply: "8PR",
-    images: ["/tires/annaite/658-1.png"]
+    images: ["/tires/annaite/658-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -944,7 +944,7 @@ export const tires: Tire[] = [
     loadIndex: "104/102",
     speedIndex: "R",
     ply: "8PR",
-    images: ["/tires/annaite/658-1.png"]
+    images: ["/tires/annaite/658-1.webp"]
   },
   {
     brand: "ANNAITE",
@@ -955,7 +955,7 @@ export const tires: Tire[] = [
     loadIndex: "104/102",
     speedIndex: "R",
     ply: "8PR",
-    images: ["/tires/annaite/900-1.png"]
+    images: ["/tires/annaite/900-1.webp"]
   },
 
   {
@@ -967,7 +967,7 @@ export const tires: Tire[] = [
     loadIndex: "160",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/aufine/AEL2-1.png"]
+    images: ["/tires/aufine/AEL2-1.webp"]
   },
   {
     brand: "AUFINE",
@@ -978,7 +978,7 @@ export const tires: Tire[] = [
     loadIndex: "164",
     speedIndex: "K",
     ply: "24PR",
-    images: ["/tires/aufine/AER3-1.png"]
+    images: ["/tires/aufine/AER3-1.webp"]
   },
   {
     brand: "AUFINE",
@@ -989,7 +989,7 @@ export const tires: Tire[] = [
     loadIndex: "164",
     speedIndex: "K",
     ply: "24PR",
-    images: ["/tires/aufine/ATR2-1.png"]
+    images: ["/tires/aufine/ATR2-1.webp"]
   },
   {
     brand: "AUFINE",
@@ -1000,7 +1000,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/aufine/ADM2-1.png"]
+    images: ["/tires/aufine/ADM2-1.webp"]
   },
   {
     brand: "AUFINE",
@@ -1011,7 +1011,7 @@ export const tires: Tire[] = [
     loadIndex: "156/150",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/aufine/ADR3-1.png"]
+    images: ["/tires/aufine/ADR3-1.webp"]
   },
   {
     brand: "AUFINE",
@@ -1022,7 +1022,7 @@ export const tires: Tire[] = [
     loadIndex: "156/150",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/aufine/AEL2-1.png"]
+    images: ["/tires/aufine/AEL2-1.webp"]
   },
   {
     brand: "AUFINE",
@@ -1033,7 +1033,7 @@ export const tires: Tire[] = [
     loadIndex: "154/150",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/aufine/ADR3-1.png"]
+    images: ["/tires/aufine/ADR3-1.webp"]
   },
   {
     brand: "AUFINE",
@@ -1044,7 +1044,7 @@ export const tires: Tire[] = [
     loadIndex: "154/150",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/aufine/ADL2-1.png"]
+    images: ["/tires/aufine/ADL2-1.webp"]
   },
   {
     brand: "AUFINE",
@@ -1055,7 +1055,7 @@ export const tires: Tire[] = [
     loadIndex: "156/150",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/aufine/AER3-1.png"]
+    images: ["/tires/aufine/AER3-1.webp"]
   },
 
   {
@@ -1067,7 +1067,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/kapsen/S01-1.png"]
+    images: ["/tires/kapsen/S01-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1078,7 +1078,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/kapsen/HS103-1.png"]
+    images: ["/tires/kapsen/HS103-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1089,7 +1089,7 @@ export const tires: Tire[] = [
     loadIndex: "156/153",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/kapsen/HS918-1.png"]
+    images: ["/tires/kapsen/HS918-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1100,7 +1100,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/kapsen/HS207-1.png"]
+    images: ["/tires/kapsen/HS207-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1111,7 +1111,7 @@ export const tires: Tire[] = [
     loadIndex: "149/146",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/kapsen/HS203-1.png"]
+    images: ["/tires/kapsen/HS203-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1122,7 +1122,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "K",
     ply: "18PR",
-    images: ["/tires/kapsen/HS716-1.png"]
+    images: ["/tires/kapsen/HS716-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1133,7 +1133,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "K",
     ply: "16PR",
-    images: ["/tires/kapsen/HS103-1.png"]
+    images: ["/tires/kapsen/HS103-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1144,7 +1144,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/kapsen/HS268-1.png"]
+    images: ["/tires/kapsen/HS268-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1155,7 +1155,7 @@ export const tires: Tire[] = [
     loadIndex: "144/142",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/kapsen/S02-1.png"]
+    images: ["/tires/kapsen/S02-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1166,7 +1166,7 @@ export const tires: Tire[] = [
     loadIndex: "143/141",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/kapsen/HS928-1.png"]
+    images: ["/tires/kapsen/HS928-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1177,7 +1177,7 @@ export const tires: Tire[] = [
     loadIndex: "143/141",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/kapsen/HS206-1.png"]
+    images: ["/tires/kapsen/HS206-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1188,7 +1188,7 @@ export const tires: Tire[] = [
     loadIndex: "139/137",
     speedIndex: "K",
     ply: "16PR",
-    images: ["/tires/kapsen/HS918-1.png"]
+    images: ["/tires/kapsen/HS918-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1199,7 +1199,7 @@ export const tires: Tire[] = [
     loadIndex: "128/124",
     speedIndex: "L",
     ply: "16PR",
-    images: ["/tires/kapsen/HS268-1.png"]
+    images: ["/tires/kapsen/HS268-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1210,7 +1210,7 @@ export const tires: Tire[] = [
     loadIndex: "122/118",
     speedIndex: "L",
     ply: "14PR",
-    images: ["/tires/kapsen/HS918-1.png"]
+    images: ["/tires/kapsen/HS918-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1221,7 +1221,7 @@ export const tires: Tire[] = [
     loadIndex: "122/118",
     speedIndex: "M",
     ply: "14PR",
-    images: ["/tires/kapsen/HS268-1.png"]
+    images: ["/tires/kapsen/HS268-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1232,7 +1232,7 @@ export const tires: Tire[] = [
     loadIndex: "118/114",
     speedIndex: "L",
     ply: "14PR",
-    images: ["/tires/kapsen/S02-1.png"]
+    images: ["/tires/kapsen/S02-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1243,7 +1243,7 @@ export const tires: Tire[] = [
     loadIndex: "118/114",
     speedIndex: "M",
     ply: "14PR",
-    images: ["/tires/kapsen/HS268-1.png"]
+    images: ["/tires/kapsen/HS268-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1254,7 +1254,7 @@ export const tires: Tire[] = [
     loadIndex: "110/105",
     speedIndex: "L",
     ply: "12PR",
-    images: ["/tires/kapsen/HS268-1.png"]
+    images: ["/tires/kapsen/HS268-1.webp"]
   },
   {
     brand: "KAPSEN",
@@ -1265,7 +1265,7 @@ export const tires: Tire[] = [
     loadIndex: "160",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/kapsen/HS166-1.png"],
+    images: ["/tires/kapsen/HS166-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1276,7 +1276,7 @@ export const tires: Tire[] = [
     loadIndex: "160",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/kapsen/HS106-1.png"],
+    images: ["/tires/kapsen/HS106-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1287,7 +1287,7 @@ export const tires: Tire[] = [
     loadIndex: "157/153",
     speedIndex: "M",
     ply: "20PR",
-    images: ["/tires/kapsen/S02-1.png"],
+    images: ["/tires/kapsen/S02-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1298,7 +1298,7 @@ export const tires: Tire[] = [
     loadIndex: "157/153",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/kapsen/S09-1.png"],
+    images: ["/tires/kapsen/S09-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1309,7 +1309,7 @@ export const tires: Tire[] = [
     loadIndex: "157/153",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/kapsen/HS928-1.png"],
+    images: ["/tires/kapsen/HS928-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1320,7 +1320,7 @@ export const tires: Tire[] = [
     loadIndex: "157/153",
     speedIndex: "M",
     ply: "20PR",
-    images: ["/tires/kapsen/HS203-1.png"],
+    images: ["/tires/kapsen/HS203-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1331,7 +1331,7 @@ export const tires: Tire[] = [
     loadIndex: "157/153",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/kapsen/HS102-1.png"],
+    images: ["/tires/kapsen/HS102-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1342,7 +1342,7 @@ export const tires: Tire[] = [
     loadIndex: "154/150",
     speedIndex: "M",
     ply: "20PR",
-    images: ["/tires/kapsen/HS202-1.png"],
+    images: ["/tires/kapsen/HS202-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1353,7 +1353,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/kapsen/HS202-2.png"],
+    images: ["/tires/kapsen/HS202-2.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1364,7 +1364,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/kapsen/S02-1.png"],
+    images: ["/tires/kapsen/S02-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1375,7 +1375,7 @@ export const tires: Tire[] = [
     loadIndex: "140/137",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/kapsen/HS205-1.png"],
+    images: ["/tires/kapsen/HS205-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1386,7 +1386,7 @@ export const tires: Tire[] = [
     loadIndex: "132/130",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/kapsen/HS928-1.png"],
+    images: ["/tires/kapsen/HS928-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1397,7 +1397,7 @@ export const tires: Tire[] = [
     loadIndex: "126/124",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/kapsen/HS205-1.png"],
+    images: ["/tires/kapsen/HS205-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1408,7 +1408,7 @@ export const tires: Tire[] = [
     loadIndex: "126/124",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/kapsen/HS928-1.png"],
+    images: ["/tires/kapsen/HS928-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1419,7 +1419,7 @@ export const tires: Tire[] = [
     loadIndex: "124/122",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/kapsen/HS205-1.png"],
+    images: ["/tires/kapsen/HS205-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1430,7 +1430,7 @@ export const tires: Tire[] = [
     loadIndex: "149/146",
     speedIndex: "K",
     ply: "18PR",
-    images: ["/tires/kapsen/HS268-1.png"],
+    images: ["/tires/kapsen/HS268-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1441,7 +1441,7 @@ export const tires: Tire[] = [
     loadIndex: "156/153",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/kapsen/HS268-1.png"],
+    images: ["/tires/kapsen/HS268-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1452,7 +1452,7 @@ export const tires: Tire[] = [
     loadIndex: "139/137",
     speedIndex: "K",
     ply: "16PR",
-    images: ["/tires/kapsen/HS268-1.png"],
+    images: ["/tires/kapsen/HS268-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1463,7 +1463,7 @@ export const tires: Tire[] = [
     loadIndex: "152/149",
     speedIndex: "K",
     ply: "18PR",
-    images: ["/tires/kapsen/HS268-1.png"],
+    images: ["/tires/kapsen/HS268-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1474,7 +1474,7 @@ export const tires: Tire[] = [
     loadIndex: "118/114",
     speedIndex: "K",
     ply: "14PR",
-    images: ["/tires/kapsen/HS918-1.png"],
+    images: ["/tires/kapsen/HS918-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1485,7 +1485,7 @@ export const tires: Tire[] = [
     loadIndex: "132/130",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/kapsen/HS205-1.png"],
+    images: ["/tires/kapsen/HS205-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1496,7 +1496,7 @@ export const tires: Tire[] = [
     loadIndex: "157/153",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/kapsen/HS268-1.png"],
+    images: ["/tires/kapsen/HS268-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1507,7 +1507,7 @@ export const tires: Tire[] = [
     loadIndex: "148/145",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/kapsen/HS205-1.png"],
+    images: ["/tires/kapsen/HS205-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1518,7 +1518,7 @@ export const tires: Tire[] = [
     loadIndex: "156/153",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/kapsen/HS801Q-1.png"],
+    images: ["/tires/kapsen/HS801Q-1.webp"],
   },
   {
     brand: "KAPSEN",
@@ -1529,7 +1529,7 @@ export const tires: Tire[] = [
     loadIndex: "144/142",
     speedIndex: "K",
     ply: "16PR",
-    images: ["/tires/kapsen/HS268-1.png"],
+    images: ["/tires/kapsen/HS268-1.webp"],
   },
 
   {
@@ -1541,7 +1541,7 @@ export const tires: Tire[] = [
     loadIndex: "160",
     speedIndex: "J",
     ply: "20PR",
-    images: ["/tires/roadtrack/TL003-1.png"],
+    images: ["/tires/roadtrack/TL003-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1552,7 +1552,7 @@ export const tires: Tire[] = [
     loadIndex: "160",
     speedIndex: "J",
     ply: "20PR",
-    images: ["/tires/roadtrack/TL003-1.png"],
+    images: ["/tires/roadtrack/TL003-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1563,7 +1563,7 @@ export const tires: Tire[] = [
     loadIndex: "164",
     speedIndex: "K",
     ply: "24PR",
-    images: ["/tires/roadtrack/TV008-1.png"],
+    images: ["/tires/roadtrack/TV008-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1574,7 +1574,7 @@ export const tires: Tire[] = [
     loadIndex: "164",
     speedIndex: "K",
     ply: "24PR",
-    images: ["/tires/roadtrack/SL007-1.png"],
+    images: ["/tires/roadtrack/SL007-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1585,7 +1585,7 @@ export const tires: Tire[] = [
     loadIndex: "160",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/roadtrack/SL007-1.png"],
+    images: ["/tires/roadtrack/SL007-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1596,7 +1596,7 @@ export const tires: Tire[] = [
     loadIndex: "144/142",
     speedIndex: "M",
     ply: "20PR",
-    images: ["/tires/roadtrack/SL101-1.png"],
+    images: ["/tires/roadtrack/SL101-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1607,7 +1607,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/roadtrack/WDV02-1.png"],
+    images: ["/tires/roadtrack/WDV02-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1618,7 +1618,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/roadtrack/DV211-1.png"],
+    images: ["/tires/roadtrack/DV211-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1629,7 +1629,7 @@ export const tires: Tire[] = [
     loadIndex: "161/154",
     speedIndex: "K",
     ply: "22PR",
-    images: ["/tires/roadtrack/DM311-1.png"],
+    images: ["/tires/roadtrack/DM311-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1640,7 +1640,7 @@ export const tires: Tire[] = [
     loadIndex: "161/154",
     speedIndex: "K",
     ply: "22PR",
-    images: ["/tires/roadtrack/DM325-1.png"],
+    images: ["/tires/roadtrack/DM325-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1651,7 +1651,7 @@ export const tires: Tire[] = [
     loadIndex: "154/150",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/roadtrack/DV211-1.png"],
+    images: ["/tires/roadtrack/DV211-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1662,7 +1662,7 @@ export const tires: Tire[] = [
     loadIndex: "156/150",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/roadtrack/SL102-1.png"],
+    images: ["/tires/roadtrack/SL102-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1673,7 +1673,7 @@ export const tires: Tire[] = [
     loadIndex: "156/150",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/roadtrack/WDV02-1.png"],
+    images: ["/tires/roadtrack/WDV02-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1684,7 +1684,7 @@ export const tires: Tire[] = [
     loadIndex: "156/150",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/roadtrack/DL011-1.png"],
+    images: ["/tires/roadtrack/DL011-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1695,7 +1695,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/roadtrack/SL102-1.png"],
+    images: ["/tires/roadtrack/SL102-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1706,7 +1706,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/roadtrack/DM310-1.png"],
+    images: ["/tires/roadtrack/DM310-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1717,7 +1717,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/roadtrack/DV311-1.png"],
+    images: ["/tires/roadtrack/DV311-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1728,7 +1728,7 @@ export const tires: Tire[] = [
     loadIndex: "154/149",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/roadtrack/SL102-1.png"],
+    images: ["/tires/roadtrack/SL102-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1739,7 +1739,7 @@ export const tires: Tire[] = [
     loadIndex: "149/144",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/roadtrack/DV211-1.png"],
+    images: ["/tires/roadtrack/DV211-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1750,7 +1750,7 @@ export const tires: Tire[] = [
     loadIndex: "154/149",
     speedIndex: "K",
     ply: "18PR",
-    images: ["/tires/roadtrack/DM311-1.png"],
+    images: ["/tires/roadtrack/DM311-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1761,7 +1761,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/roadtrack/DV302-1.png"],
+    images: ["/tires/roadtrack/DV302-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1772,7 +1772,7 @@ export const tires: Tire[] = [
     loadIndex: "143/141",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/roadtrack/SL101-1.png"],
+    images: ["/tires/roadtrack/SL101-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1783,7 +1783,7 @@ export const tires: Tire[] = [
     loadIndex: "143/141",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/roadtrack/TL002-1.png"],
+    images: ["/tires/roadtrack/TL002-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1794,7 +1794,7 @@ export const tires: Tire[] = [
     loadIndex: "143/141",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/roadtrack/DV002-1.png"],
+    images: ["/tires/roadtrack/DV002-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1805,7 +1805,7 @@ export const tires: Tire[] = [
     loadIndex: "128/126",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/roadtrack/SL101-1.png"],
+    images: ["/tires/roadtrack/SL101-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1816,7 +1816,7 @@ export const tires: Tire[] = [
     loadIndex: "128/126",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/roadtrack/DV002-1.png"],
+    images: ["/tires/roadtrack/DV002-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1827,7 +1827,7 @@ export const tires: Tire[] = [
     loadIndex: "135/133",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/roadtrack/TL002-1.png"],
+    images: ["/tires/roadtrack/TL002-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1838,7 +1838,7 @@ export const tires: Tire[] = [
     loadIndex: "143/141",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/roadtrack/DL011-1.png"],
+    images: ["/tires/roadtrack/DL011-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1849,7 +1849,7 @@ export const tires: Tire[] = [
     loadIndex: "143/141",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/roadtrack/SL102-1.png"],
+    images: ["/tires/roadtrack/SL102-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1860,7 +1860,7 @@ export const tires: Tire[] = [
     loadIndex: "143/141",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/roadtrack/TL002-1.png"],
+    images: ["/tires/roadtrack/TL002-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1871,7 +1871,7 @@ export const tires: Tire[] = [
     loadIndex: "157/154",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/roadtrack/AM201-1.png"],
+    images: ["/tires/roadtrack/AM201-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1882,7 +1882,7 @@ export const tires: Tire[] = [
     loadIndex: "156/150",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/roadtrack/DV211-1.png"],
+    images: ["/tires/roadtrack/DV211-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1893,7 +1893,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/roadtrack/DV302-1.png"],
+    images: ["/tires/roadtrack/DV302-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1904,7 +1904,7 @@ export const tires: Tire[] = [
     loadIndex: "160",
     speedIndex: "K",
     ply: "20PR",
-    images: ["/tires/roadtrack/TV008-1.png"],
+    images: ["/tires/roadtrack/TV008-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1915,7 +1915,7 @@ export const tires: Tire[] = [
     loadIndex: "148/146",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/roadtrack/SL102-1.png"],
+    images: ["/tires/roadtrack/SL102-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1926,7 +1926,7 @@ export const tires: Tire[] = [
     loadIndex: "148/146",
     speedIndex: "L",
     ply: "18PR",
-    images: ["/tires/roadtrack/DL011-1.png"],
+    images: ["/tires/roadtrack/DL011-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1937,7 +1937,7 @@ export const tires: Tire[] = [
     loadIndex: "154/149",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/roadtrack/DL011-1.png"],
+    images: ["/tires/roadtrack/DL011-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1948,7 +1948,7 @@ export const tires: Tire[] = [
     loadIndex: "154/149",
     speedIndex: "M",
     ply: "18PR",
-    images: ["/tires/roadtrack/SL101-1.png"],
+    images: ["/tires/roadtrack/SL101-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1959,7 +1959,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/roadtrack/DL301-1.png"],
+    images: ["/tires/roadtrack/DL301-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1970,7 +1970,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/roadtrack/DV302-1.png"],
+    images: ["/tires/roadtrack/DV302-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1981,7 +1981,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/roadtrack/AM201-1.png"],
+    images: ["/tires/roadtrack/AM201-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -1992,7 +1992,7 @@ export const tires: Tire[] = [
     loadIndex: "146/143",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/roadtrack/SL101-1.png"],
+    images: ["/tires/roadtrack/SL101-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -2003,7 +2003,7 @@ export const tires: Tire[] = [
     loadIndex: "140/137",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/roadtrack/SL101-1.png"],
+    images: ["/tires/roadtrack/SL101-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -2014,7 +2014,7 @@ export const tires: Tire[] = [
     loadIndex: "140/137",
     speedIndex: "M",
     ply: "16PR",
-    images: ["/tires/roadtrack/DL011-1.png"],
+    images: ["/tires/roadtrack/DL011-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -2025,7 +2025,7 @@ export const tires: Tire[] = [
     loadIndex: "133/131",
     speedIndex: "M",
     ply: "14PR",
-    images: ["/tires/roadtrack/DV002-1.png"],
+    images: ["/tires/roadtrack/DV002-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -2036,7 +2036,7 @@ export const tires: Tire[] = [
     loadIndex: "133/131",
     speedIndex: "M",
     ply: "14PR",
-    images: ["/tires/roadtrack/SL101-1.png"],
+    images: ["/tires/roadtrack/SL101-1.webp"],
   },
   {
     brand: "ROADTRACK",
@@ -2047,7 +2047,7 @@ export const tires: Tire[] = [
     loadIndex: "156/150",
     speedIndex: "L",
     ply: "20PR",
-    images: ["/tires/roadtrack/SL103-1.png"],
+    images: ["/tires/roadtrack/SL103-1.webp"],
   },
 
 ];
