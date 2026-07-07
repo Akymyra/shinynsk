@@ -887,7 +887,7 @@ export default function CatalogPage() {
                 <div className="mt-3 flex flex-wrap gap-3">
                   <a
                     className="rounded-full border border-white/15 bg-white/5 px-5 py-2 text-sm font-semibold transition hover:border-blue-400 hover:text-white"
-                    href="https://t.me/vshktyre"
+                    href="https://t.me/MaximKMS1980"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
