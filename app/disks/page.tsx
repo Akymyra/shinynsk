@@ -7,6 +7,7 @@ import ConsultationModal from "../components/ConsultationModal";
 
 export default function DisksPage() {
   const [showModal, setShowModal] = useState(false);
+  const [consultationDisk, setConsultationDisk] = useState("");
   const [isContactsOpen, setIsContactsOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -227,7 +228,10 @@ export default function DisksPage() {
 
                   <button
                     type="button"
-                    onClick={() => setShowModal(true)}
+                    onClick={() => {
+                      setConsultationDisk(disk.fullSpec);
+                      setShowModal(true);
+                    }}
                     className="mt-6 h-12 rounded-xl bg-blue-600 font-bold text-white transition hover:bg-blue-500"
                   >
                     Получить консультацию
@@ -380,7 +384,12 @@ export default function DisksPage() {
         </div>
       )}
 
-      {showModal && <ConsultationModal onClose={() => setShowModal(false)} />}
+      {showModal && (
+        <ConsultationModal
+          onClose={() => setShowModal(false)}
+          disk={consultationDisk}
+        />
+      )}
         {selectedDiskImage && (
           <div
             className="fixed inset-0 z-[999] flex items-center justify-center bg-black/95 p-6"

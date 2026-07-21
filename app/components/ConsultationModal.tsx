@@ -4,9 +4,23 @@ import { useState } from "react";
 
 type Props = {
   onClose: () => void;
+
+  tire?: {
+    brand: string;
+    model: string;
+  } | null;
+
+  size?: string;
+
+  disk?: string;
 };
 
-export default function ConsultationModal({ onClose }: Props) {
+export default function ConsultationModal({
+  onClose,
+  tire,
+  size,
+  disk,
+}: Props) {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -16,20 +30,42 @@ export default function ConsultationModal({ onClose }: Props) {
   const [error, setError] = useState("");
 
   const handleSubmit = async () => {
-    setError("");
+  setError("");
 
-    if (!name.trim() || !phone.trim()) {
-      setError("Укажите имя и телефон.");
-      return;
+  if (!name.trim() || !phone.trim()) {
+    setError("Укажите имя и телефон.");
+    return;
+  }
+
+  setIsSending(true);
+
+  try {
+    const response = await fetch("/api/consultation", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name,
+        phone,
+        email,
+        comment,
+        tireModel: tire ? `${tire.brand} ${tire.model}` : "",
+        tireSize: size || "",
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error("Ошибка отправки");
     }
 
-    setIsSending(true);
-
-    setTimeout(() => {
-      setIsSending(false);
-      setIsSent(true);
-    }, 800);
-  };
+    setIsSent(true);
+  } catch (err) {
+    setError("Не удалось отправить заявку. Попробуйте ещё раз.");
+  } finally {
+    setIsSending(false);
+  }
+};
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-6 backdrop-blur-sm">

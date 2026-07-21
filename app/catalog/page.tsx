@@ -516,6 +516,8 @@ export default function CatalogPage() {
   const [selectedTire, setSelectedTire] = useState<TireModel | null>(null);
   const [selectedTireSize, setSelectedTireSize] = useState("");
   const [showModal, setShowModal] = useState(false);
+  const [consultationTire, setConsultationTire] = useState<TireModel | null>(null);
+  const [consultationSize, setConsultationSize] = useState("");
   const [isContactsOpen, setIsContactsOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   useEffect(() => {
@@ -617,7 +619,11 @@ export default function CatalogPage() {
 
             <button
               type="button"
-              onClick={() => setShowModal(true)}
+              onClick={() => {
+                setConsultationTire(selectedTire);
+                setConsultationSize(selectedTireSize);
+                setShowModal(true);
+              }}
               className="rounded-xl bg-blue-600 px-5 py-2 font-bold transition hover:bg-blue-500"
             >
               Получить консультацию
@@ -1014,7 +1020,13 @@ export default function CatalogPage() {
         </div>
       )}
 
-      {showModal && <ConsultationModal onClose={() => setShowModal(false)} />}
+      {showModal && (
+        <ConsultationModal
+          onClose={() => setShowModal(false)}
+          tire={consultationTire}
+          size={consultationSize}
+        />
+      )}
     </main>
   );
 }
