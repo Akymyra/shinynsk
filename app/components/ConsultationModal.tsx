@@ -52,6 +52,7 @@ export default function ConsultationModal({
         comment,
         tireModel: tire ? `${tire.brand} ${tire.model}` : "",
         tireSize: size || "",
+        disk: disk || "",
       }),
     });
 

@@ -827,6 +827,8 @@ export default function CatalogPage() {
             setSelectedTireSize("");
           }}
           onConsultation={() => {
+            setConsultationTire(selectedTire);
+            setConsultationSize(selectedTireSize);
             setSelectedTire(null);
             setSelectedTireSize("");
             setShowModal(true);
