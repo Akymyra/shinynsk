@@ -617,17 +617,21 @@ export default function CatalogPage() {
               Контакты
             </button>
 
-            <button
-              type="button"
-              onClick={() => {
-                setConsultationTire(selectedTire);
-                setConsultationSize(selectedTireSize);
-                setShowModal(true);
-              }}
-              className="rounded-xl bg-blue-600 px-5 py-2 font-bold transition hover:bg-blue-500"
-            >
-              Получить консультацию
-            </button>
+           <button
+            type="button"
+            onClick={() => {
+              setConsultationTire(selectedTire);
+              setConsultationSize(
+                selectedTire
+                  ? getMainPosition(selectedTire, selectedTireSize)?.size || ""
+                  : ""
+              );
+              setShowModal(true);
+            }}
+            className="rounded-xl bg-blue-600 px-5 py-2 font-bold transition hover:bg-blue-500"
+          >
+            Получить консультацию
+          </button>
           </nav>
         </div>
       </header>
@@ -828,7 +832,9 @@ export default function CatalogPage() {
           }}
           onConsultation={() => {
             setConsultationTire(selectedTire);
-            setConsultationSize(selectedTireSize);
+            setConsultationSize(
+              getMainPosition(selectedTire, selectedTireSize)?.size || ""
+            );
             setSelectedTire(null);
             setSelectedTireSize("");
             setShowModal(true);
