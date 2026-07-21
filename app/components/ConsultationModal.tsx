@@ -40,19 +40,30 @@ export default function ConsultationModal({
   setIsSending(true);
 
   try {
+
+    console.log("SEND DATA:", {
+        name,
+        phone,
+        email,
+        tire,
+        size,
+      });
+
+    console.log("FINAL SIZE:", size);
+
     const response = await fetch("/api/consultation", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
+      
       body: JSON.stringify({
         name,
         phone,
         email,
         comment,
         tireModel: tire ? `${tire.brand} ${tire.model}` : "",
-        tireSize: size || "",
-        disk: disk || "",
+        tireSize: "TEST_SIZE",
       }),
     });
 

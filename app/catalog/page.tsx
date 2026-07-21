@@ -839,6 +839,7 @@ export default function CatalogPage() {
                 : null,
             });
 
+            console.log("SIZE FROM CARD:", size);
             setConsultationTire(selectedTire);
             setConsultationSize(size);
             setSelectedTire(null);
