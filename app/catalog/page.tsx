@@ -839,6 +839,7 @@ export default function CatalogPage() {
                 : null,
             });
 
+            setConsultationTire(selectedTire);
             setConsultationSize(size);
             setSelectedTire(null);
             setSelectedTireSize("");
