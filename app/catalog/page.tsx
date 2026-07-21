@@ -274,7 +274,7 @@ function TireDetailsModal({
   tire: TireModel;
   selectedSize?: string;
   onClose: () => void;
-  onConsultation: () => void;
+  onConsultation: (size: string) => void;
 }) {
   const [activeImage, setActiveImage] = useState(0);
   const [isImageOpen, setIsImageOpen] = useState(false);
@@ -414,7 +414,7 @@ function TireDetailsModal({
             <div className="mt-6 flex justify-end">
               <button
                 type="button"
-                onClick={onConsultation}
+                onClick={() => onConsultation(mainPosition?.size || "")}
                 className="h-14 w-full rounded-xl bg-blue-600 font-bold transition hover:bg-blue-500 sm:w-[320px]"
               >
                 Получить консультацию
@@ -830,11 +830,16 @@ export default function CatalogPage() {
             setSelectedTire(null);
             setSelectedTireSize("");
           }}
-          onConsultation={() => {
-            setConsultationTire(selectedTire);
-            setConsultationSize(
-              getMainPosition(selectedTire, selectedTireSize)?.size || ""
-            );
+          onConsultation={(size) => {
+            console.log("CONSULTATION DATA:", {
+              tire: selectedTire,
+              size,
+              main: selectedTire
+                ? getMainPosition(selectedTire, size)
+                : null,
+            });
+
+            setConsultationSize(size);
             setSelectedTire(null);
             setSelectedTireSize("");
             setShowModal(true);
