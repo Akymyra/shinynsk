@@ -81,7 +81,7 @@ function getPreferredSize(
     );
   });
 
-  return matchedPosition?.size || "";
+  return matchedPosition?.size || tire.positions[0]?.size || "";
 }
 
 function getAxleStyle(axle: string) {
