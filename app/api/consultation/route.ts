@@ -6,6 +6,9 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
 
+    console.log("===== API HIT =====");
+    console.log(body);
+
     const {
       name,
       phone,
