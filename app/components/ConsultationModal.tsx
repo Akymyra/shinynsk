@@ -63,7 +63,7 @@ export default function ConsultationModal({
         email,
         comment,
         tireModel: tire ? `${tire.brand} ${tire.model}` : "",
-        tireSize: "TEST_SIZE",
+        tireSize: size || "",
       }),
     });
 
