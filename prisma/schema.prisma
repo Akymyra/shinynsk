@@ -1,0 +1,21 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model ConsultationRequest {
+  id        Int      @id @default(autoincrement())
+  name      String
+  phone     String
+  email     String?
+  comment   String
+
+  tireModel String?
+  tireSize  String?
+
+  createdAt DateTime @default(now())
+}
