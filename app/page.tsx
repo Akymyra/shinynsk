@@ -502,7 +502,7 @@ export default function Home() {
                   </a>
                   <a
                     className="rounded-full border border-white/15 bg-white/5 px-5 py-2 text-sm font-semibold transition hover:border-purple-400 hover:bg-purple-500/20 hover:text-white"
-                    href="https://max.ru/u/f9LHodD0cOKSGc2h4F4bfjpERaPfNE_w3ukdbIdgqYFq3j7GDNu0MGjyV-U"
+                    href="https://max.ru/u/f9LHodD0cOJgHIs-uZZblaN1hinobbeG36A9xNmmVObOTdyzbktrA25_dnk"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
