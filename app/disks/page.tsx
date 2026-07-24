@@ -282,7 +282,7 @@ export default function DisksPage() {
                 <div className="mt-3 flex flex-wrap gap-3">
                   <a className="rounded-full border border-white/15 bg-white/5 px-5 py-2 text-sm font-semibold transition hover:border-blue-400 hover:text-white "href="https://t.me/MaximKMS1980" target="_blank" rel="noopener noreferrer">Telegram</a>
                   <a className="rounded-full border border-white/15 bg-white/5 px-5 py-2 text-sm font-semibold transition hover:border-green-400 hover:text-white" href="https://wa.me/79133819009" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-                  <a className="rounded-full border border-white/15 bg-white/5 px-5 py-2 text-sm font-semibold transition hover:border-purple-400 hover:bg-purple-500/20 hover:text-white" href="https://max.ru/u/f9LHodD0cOKSGc2h4F4bfjpERaPfNE_w3ukdbIdgqYFq3j7GDNu0MGjyV-U" target="_blank" rel="noopener noreferrer">MAX</a>
+                  <a className="rounded-full border border-white/15 bg-white/5 px-5 py-2 text-sm font-semibold transition hover:border-purple-400 hover:bg-purple-500/20 hover:text-white" href="https://max.ru/u/f9LHodD0cOJgHIs-uZZblaN1hinobbeG36A9xNmmVObOTdyzbktrA25_dnk" target="_blank" rel="noopener noreferrer">MAX</a>
                 </div>
               </div>
 
