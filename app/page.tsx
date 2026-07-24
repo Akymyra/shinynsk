@@ -44,15 +44,26 @@ export default function Home() {
 
         <div className="relative z-10 flex min-h-[85vh] w-full flex-col px-5 py-8 sm:px-6 lg:px-20 xl:px-28 2xl:px-36">
           <header className="flex items-start justify-between gap-6">
-            <div>
-              <div className="text-[26px] font-black tracking-[0.08em] sm:text-3xl lg:text-3xl">
-                ВШК АЛЬЯНС-ИМПОРТ
-              </div>
+              <div className="flex items-center gap-4">
+                <Image
+                  src="/favicon-vshk.png"
+                  alt="ВШК Альянс-Импорт"
+                  width={72}
+                  height={72}
+                  className="h-[72px] w-[72px] rounded-xl object-contain"
+                  priority
+                />
 
-              <div className="mt-1 text-[10px] font-semibold tracking-[0.18em] text-white sm:mt-2 sm:text-xs sm:tracking-[0.28em]">
-                ГРУЗОВЫЕ ШИНЫ И ДИСКИ
+                <div>
+                  <div className="text-[26px] font-black tracking-[0.08em] sm:text-3xl lg:text-3xl">
+                    ВШК АЛЬЯНС-ИМПОРТ
+                  </div>
+
+                  <div className="mt-1 text-[10px] font-semibold tracking-[0.18em] text-white sm:mt-2 sm:text-xs sm:tracking-[0.28em]">
+                    ГРУЗОВЫЕ ШИНЫ И ДИСКИ
+                  </div>
+                </div>
               </div>
-            </div>
               <button
                 type="button"
                 onClick={() => setIsMobileMenuOpen(true)}
@@ -203,6 +214,7 @@ export default function Home() {
                     width={600}
                     height={400}
                     className="h-28 w-full cursor-zoom-in rounded-2xl object-cover transition duration-300 hover:scale-105 sm:h-56"
+                    style={{ width: "100%", height: "auto" }}
                     onClick={() => setSelectedWarehouseImage("/company/warehouse-1.png")}
                   />
                 </div>
@@ -214,6 +226,7 @@ export default function Home() {
                     width={600}
                     height={400}
                     className="h-28 w-full cursor-zoom-in rounded-2xl object-cover transition duration-300 hover:scale-105 sm:h-56"
+                    style={{ width: "100%", height: "auto" }}
                     onClick={() => setSelectedWarehouseImage("/company/warehouse-2.png")}
                   />
                 </div>
@@ -225,6 +238,7 @@ export default function Home() {
                     width={600}
                     height={400}
                     className="h-28 w-full cursor-zoom-in rounded-2xl object-cover transition duration-300 hover:scale-105 sm:h-56"
+                    style={{ width: "100%", height: "auto" }}
                     onClick={() => setSelectedWarehouseImage("/company/warehouse-3.png")}
                   />
                 </div>
@@ -236,29 +250,66 @@ export default function Home() {
                     width={600}
                     height={400}
                     className="h-28 w-full cursor-zoom-in rounded-2xl object-cover transition duration-300 hover:scale-105 sm:h-56"
+                    style={{ width: "100%", height: "auto" }}
                     onClick={() => setSelectedWarehouseImage("/company/warehouse-4.png")}
                   />
                 </div>
               </div>
             </div>
-            <div className="self-start rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur sm:p-8">
-              <p className="text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
-                ВШК «Альянс-Импорт» — поставщик грузовых шин и дисков для перевозчиков,
-                строительных компаний, ИП и частных клиентов. Более 15 лет мы работаем
-                на рынке грузовых шин и являемся официальным дистрибьютором бренда ANNAITE
-                в России. В наличии широкий ассортимент продукции ANNAITE, AUFINE,
-                ROADTRACK и KAPSEN для магистральных перевозок, региональных маршрутов
-                и строительных работ.
+            <div className="self-start h-full rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur flex flex-col justify-between">
+              <h3 className="text-3xl font-black text-white">
+                О компании
+              </h3>
+
+              <p className="mt-6 text-lg leading-8 text-zinc-300">
+                <span className="font-bold text-white">ВШК «Альянс-Импорт»</span> — поставщик
+                грузовых шин и дисков для перевозчиков, строительных компаний, ИП и частных
+                клиентов.
+                <br />
+                <br />
+                Более <span className="font-bold text-white">15 лет</span> мы успешно
+                работаем на рынке и являемся официальным дистрибьютором ведущих брендов
+                грузовых шин.
               </p>
 
-              <p className="mt-5 text-base leading-7 text-zinc-300 sm:text-lg sm:leading-8">
-                Компания располагает сетью филиалов и складов в ключевых регионах России:
-                Владивосток, Хабаровск, Красноярск, Новосибирск, Екатеринбург, Москва,
-                Ростов-на-Дону и Краснодар. Это позволяет оперативно обеспечивать клиентов
-                грузовыми шинами и дисками по всей стране. Центральный склад расположен
-                в Новосибирске, что обеспечивает быструю отгрузку по Сибири и удобную
-                отправку транспортными компаниями во все регионы России.
-              </p>
+              <div className="mt-6 rounded-2xl border border-white/10 bg-white/[0.04] p-5">
+                <div className="text-lg font-bold text-white mb-4">
+                  Официальный дистрибьютор
+                </div>
+
+                <div className="grid grid-cols-2 gap-y-3 gap-x-6">
+                  <div className="text-[15px] font-semibold text-white">✔ ANNAITE</div>
+                  <div className="text-[15px] font-semibold text-white">✔ AUFINE</div>
+                  <div className="text-[15px] font-semibold text-white">✔ KAPSEN</div>
+                  <div className="text-[15px] font-semibold text-white">✔ ROADTRACK</div>
+                </div>
+              </div>
+
+              <div className="mt-6">
+                <div className="text-xl font-bold text-white mb-4">
+                  Почему выбирают нас
+                </div>
+
+                <div className="space-y-2 text-zinc-300 leading-8">
+                  <div>✔ Более 15 лет успешной работы.</div>
+                  <div>✔ Более 5000 шин и дисков в наличии.</div>
+                  <div>✔ 8 филиалов по всей России.</div>
+                  <div>✔ Быстрая доставка транспортными компаниями.</div>
+                  <div>✔ Профессиональный подбор под любую технику.</div>
+                </div>
+              </div>
+
+              <div className="mt-auto pt-5 border-t border-white/10">
+                <div className="text-xl font-bold text-white mb-4">
+                  Наши филиалы
+                </div>
+
+                <p className="leading-8 text-zinc-300">
+                  Новосибирск • Красноярск • Екатеринбург • Москва
+                  <br />
+                  Владивосток • Хабаровск • Ростов-на-Дону • Краснодар
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -346,8 +397,8 @@ export default function Home() {
                   </p>
 
                   <p>
-                    Бесплатная доставка по Новосибирску и в радиусе 200 км от
-                    города при заказе от 30 шин.
+                    Бесплатная доставка по правому берегу Новосибирска при
+                    заказе от 20 шин.
                   </p>
 
                   <p>
