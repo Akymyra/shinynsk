@@ -1,11 +1,22 @@
-export default function AdminPage() {
-  return (
-    <main className="p-8">
-      <h1 className="text-3xl font-bold">Админ-панель</h1>
+import { cookies } from "next/headers";
+import { jwtVerify } from "jose";
+import { redirect } from "next/navigation";
 
-      <p className="mt-4">
-        Если ты видишь эту страницу, значит авторизация прошла успешно.
-      </p>
-    </main>
-  );
+export default async function AdminPage() {
+  const token = (await cookies()).get("admin-token")?.value;
+
+  if (!token) {
+    redirect("/admin/login");
+  }
+
+  try {
+    await jwtVerify(
+      token,
+      new TextEncoder().encode(process.env.JWT_SECRET!)
+    );
+  } catch {
+    redirect("/admin/login");
+  }
+
+  redirect("/admin/requests");
 }
