@@ -1,5 +1,8 @@
 import { prisma } from "@/lib/prisma";
 import { deleteRequest } from "./actions";
+import { cookies } from "next/headers";
+import { jwtVerify } from "jose";
+import { redirect } from "next/navigation";
 
 export default async function RequestsPage({
     searchParams,
@@ -7,6 +10,21 @@ export default async function RequestsPage({
     searchParams: Promise<{ search?: string }>;
     }) {
   const { search = "" } = await searchParams;
+  const cookieStore = await cookies();
+  const token = cookieStore.get("admin-token")?.value;
+
+  if (!token) {
+    redirect("/admin/login");
+  }
+
+  try {
+    await jwtVerify(
+      token,
+      new TextEncoder().encode(process.env.JWT_SECRET!)
+    );
+  } catch {
+    redirect("/admin/login");
+  }
   const totalRequests = await prisma.consultationRequest.count();
   const requests = await prisma.consultationRequest.findMany({
   where: search
