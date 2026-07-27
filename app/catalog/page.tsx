@@ -851,11 +851,11 @@ export default function CatalogPage() {
       )}
       {isContactsOpen && (
         <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 px-6 backdrop-blur-sm"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 px-4 py-6 backdrop-blur-sm sm:px-6"
           onClick={() => setIsContactsOpen(false)}
         >
           <div
-            className="relative w-full max-w-2xl rounded-3xl border border-white/10 bg-[#080B12] p-8 text-white shadow-[0_0_80px_rgba(37,99,235,0.25)]"
+            className="relative max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-3xl border border-white/10 bg-[#080B12] p-6 text-white shadow-[0_0_80px_rgba(37,99,235,0.25)] sm:p-8"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -934,34 +934,40 @@ export default function CatalogPage() {
                 </div>
               </div>
 
-              <div className="grid gap-5 border-t border-white/10 pt-6 md:grid-cols-2">
-                <div>
-                  <div className="text-sm text-zinc-500">Почта</div>
-                  <a
-                    href="mailto:alliance.vshk@gmail.com"
-                    className="mt-1 block font-semibold transition hover:text-blue-300"
-                  >
-                    alliance.vshk@gmail.com
-                  </a>
+             <div className="grid gap-6 border-t border-white/10 pt-6 md:grid-cols-2">
+              <div>
+                <div className="text-zinc-500">Почта</div>
+                <div className="mt-2 text-xl font-bold">
+                  alliance.vshk@gmail.com
                 </div>
 
-                <div>
-                  <div className="text-sm text-zinc-500">Режим работы</div>
-                  <div className="mt-1 font-semibold">
-                    Пн–Пт с 9:00 до 18:00
-                  </div>
+                <div className="mt-8 text-zinc-500">Адрес</div>
+                <div className="mt-2 text-xl font-black sm:text-2xl">
+                  Новосибирск, ул. Петухова, 89Б
+                </div>
+              </div>
+
+              <div>
+                <div className="text-zinc-500">Режим работы</div>
+                <div className="mt-2 text-xl font-bold">
+                  Пн–Пт с 9:00 до 18:00
                 </div>
 
-                <div className="md:col-span-2">
-                  <div className="text-sm text-zinc-500">Адрес</div>
-                  <div className="mt-1 font-semibold">
-                    Новосибирск, ул. Петухова, 89Б
-                  </div>
-                </div>
+                <div className="mt-8 text-zinc-500">Маршрут</div>
+
+                <a
+                  href="https://go.2gis.com/oqDjQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center rounded-xl bg-blue-600 px-5 py-3 font-bold text-white transition hover:bg-blue-500"
+                >
+                  🗺️ Построить маршрут в 2ГИС
+                </a>
+              </div>
+            </div>
               </div>
             </div>
           </div>
-        </div>
       )}
 
       {isMobileMenuOpen && (
