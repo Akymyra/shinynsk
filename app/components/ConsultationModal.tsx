@@ -12,7 +12,16 @@ type Props = {
 
   size?: string;
 
-  disk?: string;
+  disk?: {
+    brand: string;
+    size: string;
+    holes: string;
+    holeDiameter: string;
+    et: string;
+    dia: string;
+    pcd: string;
+    thickness: string;
+  } | null;
 };
 
 export default function ConsultationModal({
@@ -61,9 +70,29 @@ export default function ConsultationModal({
         name,
         phone,
         email,
-        comment,
-        tireModel: tire ? `${tire.brand} ${tire.model}` : "",
-        tireSize: size || "",
+
+        comment:
+          (comment ? comment + "\n\n" : "") +
+          (disk
+            ? `Выбранный диск:
+
+      ${disk.brand} ${disk.size}
+
+      Отверстия: ${disk.holes}
+      Диаметр отв.: ${disk.holeDiameter}
+      ET: ${disk.et}
+      DIA: ${disk.dia}
+      Разболтовка: ${disk.pcd}
+      Толщина: ${disk.thickness}`
+            : ""),
+
+        tireModel: tire
+          ? `${tire.brand} ${tire.model}`
+          : disk?.brand || "",
+
+        tireSize: tire
+          ? size || ""
+          : disk?.size || "",
       }),
     });
 

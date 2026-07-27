@@ -7,7 +7,16 @@ import ConsultationModal from "../components/ConsultationModal";
 
 export default function DisksPage() {
   const [showModal, setShowModal] = useState(false);
-  const [consultationDisk, setConsultationDisk] = useState("");
+  const [consultationDisk, setConsultationDisk] = useState<{
+  brand: string;
+  size: string;
+  holes: string;
+  holeDiameter: string;
+  et: string;
+  dia: string;
+  pcd: string;
+  thickness: string;
+} | null>(null);
   const [isContactsOpen, setIsContactsOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -229,7 +238,16 @@ export default function DisksPage() {
                   <button
                     type="button"
                     onClick={() => {
-                      setConsultationDisk(disk.fullSpec);
+                      setConsultationDisk({
+                        brand: disk.brand,
+                        size: disk.size,
+                        holes: disk.holes,
+                        holeDiameter: disk.holeDiameter,
+                        et: disk.et,
+                        dia: disk.dia,
+                        pcd: disk.pcd,
+                        thickness: disk.thickness,
+                      });
                       setShowModal(true);
                     }}
                     className="mt-6 h-12 rounded-xl bg-blue-600 font-bold text-white transition hover:bg-blue-500"
