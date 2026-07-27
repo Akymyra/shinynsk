@@ -166,7 +166,7 @@ export default function Home() {
 
               <div className="mt-5 flex w-full max-w-[630px] justify-center">
                 <a
-                  href="/catalog?category=disks"
+                  href="/disks"
                   className="flex h-24 w-full flex-col items-center justify-center rounded-xl bg-white px-8 shadow-lg transition hover:-translate-y-1 hover:shadow-[0_0_35px_rgba(255,255,255,0.2)] sm:w-[300px]"
                 >
                   <Image
