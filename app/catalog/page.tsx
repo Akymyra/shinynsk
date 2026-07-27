@@ -589,7 +589,7 @@ export default function CatalogPage() {
     <main className="min-h-screen bg-[#05070A] text-white">
       <header className="border-b border-white/10 bg-[#05070A]/90 px-6 py-6 backdrop-blur lg:px-12">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-5">
-          <a href="/" className="flex items-center gap-4">
+          <div className="flex items-center gap-4">
             <Image
               src="/favicon-vshk.png"
               alt="ВШК Альянс-Импорт"
@@ -608,7 +608,7 @@ export default function CatalogPage() {
                 ГРУЗОВЫЕ ШИНЫ И ДИСКИ
               </div>
             </div>
-          </a>
+          </div>
 
           <button
             type="button"
