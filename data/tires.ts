@@ -2049,6 +2049,17 @@ export const tires: Tire[] = [
     ply: "20PR",
     images: ["/tires/roadtrack/SL103-1.webp", "/tires/roadtrack/SL103-2.webp", "/tires/roadtrack/SL103-3.webp"],
   },
+  {
+    brand: "ROADTRACK",
+    model: "DV210",
+    size: "275/70R22.5",
+    axle: "Ведущая",
+    manufacturer: "Вьетнам",
+    loadIndex: "148/145",
+    speedIndex: "M",
+    ply: "16PR",
+    images: ["/tires/roadtrack/DV210-1.webp", "/tires/roadtrack/DV210-2.webp", "/tires/roadtrack/DV210-3.webp"],
+  },
 
 ];
 

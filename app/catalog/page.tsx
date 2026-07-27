@@ -589,8 +589,25 @@ export default function CatalogPage() {
     <main className="min-h-screen bg-[#05070A] text-white">
       <header className="border-b border-white/10 bg-[#05070A]/90 px-6 py-6 backdrop-blur lg:px-12">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-5">
-          <a href="/" className="text-2xl font-black tracking-[0.12em] text-white">
-            ВШК АЛЬЯНС-ИМПОРТ
+          <a href="/" className="flex items-center gap-4">
+            <Image
+              src="/favicon-vshk.png"
+              alt="ВШК Альянс-Импорт"
+              width={72}
+              height={72}
+              className="h-[72px] w-[72px] rounded-xl object-contain"
+              priority
+            />
+
+            <div>
+              <div className="text-[26px] font-black tracking-[0.08em] sm:text-3xl lg:text-3xl">
+                ВШК АЛЬЯНС-ИМПОРТ
+              </div>
+
+              <div className="mt-1 text-[10px] font-semibold tracking-[0.18em] text-white sm:mt-2 sm:text-xs sm:tracking-[0.28em]">
+                ГРУЗОВЫЕ ШИНЫ И ДИСКИ
+              </div>
+            </div>
           </a>
 
           <button
@@ -616,22 +633,6 @@ export default function CatalogPage() {
             >
               Контакты
             </button>
-
-           <button
-            type="button"
-            onClick={() => {
-              setConsultationTire(selectedTire);
-              setConsultationSize(
-                selectedTire
-                  ? getMainPosition(selectedTire, selectedTireSize)?.size || ""
-                  : ""
-              );
-              setShowModal(true);
-            }}
-            className="rounded-xl bg-blue-600 px-5 py-2 font-bold transition hover:bg-blue-500"
-          >
-            Получить консультацию
-          </button>
           </nav>
         </div>
       </header>
