@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import ConsultationModal from "./components/ConsultationModal";
 
+
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
   const [isContactsOpen, setIsContactsOpen] = useState(false);
@@ -21,11 +22,11 @@ export default function Home() {
     };
   }, [showModal, isContactsOpen, isMobileMenuOpen, selectedWarehouseImage]);
   const brands = [
-  { name: "ROADTRACK", src: "/roadtrack.webp", href: "/catalog?brand=roadtrack" },
-  { name: "ANNAITE", src: "/annaite.webp", href: "/catalog?brand=annaite" },
-  { name: "KAPSEN", src: "/kapsen.webp", href: "/catalog?brand=kapsen" },
-  { name: "AUFINE", src: "/aufine.webp", href: "/catalog?brand=aufine" },
-  ];
+  { name: "ROADTRACK", src: "/roadtrack.webp", href: "/catalog?brand=ROADTRACK" },
+  { name: "ANNAITE", src: "/annaite.webp", href: "/catalog?brand=ANNAITE" },
+  { name: "KAPSEN", src: "/kapsen.webp", href: "/catalog?brand=KAPSEN" },
+  { name: "AUFINE", src: "/aufine.webp", href: "/catalog?brand=AUFINE" },
+];
 
   return (
     <main className="min-h-screen bg-[#05070A] text-white">
