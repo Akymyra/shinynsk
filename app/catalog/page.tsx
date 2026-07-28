@@ -691,7 +691,15 @@ export default function CatalogPage() {
               <button
                 key={tab.id}
                 type="button"
-                onClick={() => setActiveTab(tab.id)}
+                onClick={() => {
+                  setActiveTab(tab.id);
+
+                  if (tab.id === "brands") {
+                    setSearchQuery("");
+                    setSelectedSize("");
+                    setSelectedAxle("");
+                  }
+                }}
                 className={`rounded-xl border px-5 py-3 font-medium transition-all duration-300 ${
                   activeTab === tab.id
                     ? "border-blue-500 bg-blue-600 text-white shadow-[0_0_25px_rgba(37,99,235,0.4)]"
