@@ -24,7 +24,6 @@ export default function DisksPage() {
   const [selectedDiskImage, setSelectedDiskImage] = useState<string | null>(null);
   useEffect(() => {
     if (
-      showModal ||
       isContactsOpen ||
       isMobileMenuOpen ||
       selectedDiskImage
@@ -33,7 +32,6 @@ export default function DisksPage() {
     } else {
       document.body.style.overflow = "";
     }
-
     return () => {
       document.body.style.overflow = "";
     };
