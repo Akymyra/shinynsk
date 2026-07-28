@@ -536,7 +536,7 @@ export default function CatalogPage() {
 
 useEffect(() => {
   const brand = searchParams.get("brand");
-
+  console.log("URL BRAND =", brand);
   if (brand) {
     setSelectedBrand(brand.toUpperCase());
   }
