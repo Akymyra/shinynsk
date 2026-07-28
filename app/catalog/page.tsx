@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import ConsultationModal from "../components/ConsultationModal";
 import { tires } from "../../data/tires";
-import { useSearchParams } from "next/navigation";
 
 type TirePosition = {
   size: string;
@@ -521,26 +520,16 @@ export default function CatalogPage() {
   const [consultationSize, setConsultationSize] = useState("");
   const [isContactsOpen, setIsContactsOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const searchParams = useSearchParams();
-  useEffect(() => {
-  if (showModal || isContactsOpen || isMobileMenuOpen) {
-    document.body.style.overflow = "hidden";
-  } else {
-    document.body.style.overflow = "";
-  }
+    useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const brand = params.get("brand");
 
-  return () => {
-    document.body.style.overflow = "";
-  };
-}, [showModal, isContactsOpen, isMobileMenuOpen]);
+    console.log("URL BRAND =", brand);
 
-useEffect(() => {
-  const brand = searchParams.get("brand");
-  console.log("URL BRAND =", brand);
-  if (brand) {
-    setSelectedBrand(brand.toUpperCase());
-  }
-}, [searchParams]);
+    if (brand) {
+      setSelectedBrand(brand.toUpperCase());
+    }
+  }, []);
 
   const catalogModels = useMemo(() => buildCatalogModels(tires as OldTire[]), []);
 
