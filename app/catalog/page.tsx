@@ -671,7 +671,12 @@ export default function CatalogPage() {
             <input
               type="text"
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={(e) => {
+                setSelectedBrand("");
+                setSelectedSize("");
+                setSelectedAxle("");
+                setSearchQuery(e.target.value);
+              }}
               placeholder="Поиск по размеру, бренду или модели..."
               className="h-14 w-full rounded-xl border border-white/10 bg-white/[0.03] px-5 text-white outline-none transition placeholder:text-zinc-600 focus:border-blue-400"
             />
@@ -718,7 +723,12 @@ export default function CatalogPage() {
                 <button
                   key={brand.name}
                   type="button"
-                  onClick={() => setSelectedBrand(brand.name)}
+                  onClick={() => {
+                    setSearchQuery("");
+                    setSelectedSize("");
+                    setSelectedAxle("");
+                    setSelectedBrand(brand.name);
+                  }}
                   className={`flex h-20 items-center justify-center rounded-2xl bg-white p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_35px_rgba(255,255,255,0.2)] ${
                     selectedBrand === brand.name
                       ? "ring-2 ring-blue-500 ring-offset-2 ring-offset-[#05070A]"
@@ -747,7 +757,12 @@ export default function CatalogPage() {
                 <button
                   key={size}
                   type="button"
-                  onClick={() => setSelectedSize(size)}
+                  onClick={() => {
+                    setSearchQuery("");
+                    setSelectedBrand("");
+                    setSelectedAxle("");
+                    setSelectedSize(size);
+                  }}
                   className={`flex h-16 items-center justify-center rounded-xl border text-center font-medium transition hover:-translate-y-1 hover:border-white/30 hover:bg-white/[0.06] ${
                     selectedSize === size
                       ? "border-blue-500 bg-blue-600 text-white"
@@ -766,7 +781,12 @@ export default function CatalogPage() {
                 <button
                   key={axle}
                   type="button"
-                  onClick={() => setSelectedAxle(axle)}
+                  onClick={() => {
+                    setSearchQuery("");
+                    setSelectedBrand("");
+                    setSelectedSize("");
+                    setSelectedAxle(axle);
+                  }}
                   className={`flex h-20 items-center justify-center rounded-2xl border px-4 text-center font-bold transition hover:-translate-y-1 hover:border-white/30 hover:bg-white/[0.06] ${
                     selectedAxle === axle
                       ? "border-blue-500 bg-blue-600 text-white"

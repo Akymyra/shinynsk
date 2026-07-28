@@ -148,7 +148,10 @@ export default function DisksPage() {
         <input
             type="text"
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={(e) => {
+              setSelectedRadius("");
+              setSearchQuery(e.target.value);
+            }}
             placeholder="Поиск по размеру, ET, DIA, разболтовке..."
             className="h-14 w-full rounded-xl border border-white/10 bg-white/[0.03] px-5 text-white outline-none transition placeholder:text-zinc-600 focus:border-blue-400"
         />
@@ -159,7 +162,10 @@ export default function DisksPage() {
             <button
             key={radius}
             type="button"
-            onClick={() => setSelectedRadius(radius)}
+            onClick={() => {
+              setSearchQuery("");
+              setSelectedRadius(radius);
+            }}
             className={`rounded-xl border px-5 py-3 font-medium transition-all duration-300 ${
                 selectedRadius === radius
                 ? "border-blue-500 bg-blue-600 text-white shadow-[0_0_25px_rgba(37,99,235,0.4)]"
