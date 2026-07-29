@@ -59,10 +59,6 @@ export default function Home() {
                   <div className="text-[26px] font-black tracking-[0.08em] sm:text-3xl lg:text-3xl">
                     ВШК АЛЬЯНС-ИМПОРТ
                   </div>
-
-                  <div className="mt-1 text-[10px] font-semibold tracking-[0.18em] text-white sm:mt-2 sm:text-xs sm:tracking-[0.28em]">
-                    ГРУЗОВЫЕ ШИНЫ И ДИСКИ
-                  </div>
                 </div>
               </div>
               <button
@@ -274,15 +270,29 @@ export default function Home() {
               </p>
 
               <div className="mt-6 rounded-2xl border border-white/10 bg-white/[0.04] p-5">
-                <div className="text-lg font-bold text-white mb-4">
-                  Официальный дистрибьютор
-                </div>
+                <div className="mb-5 flex items-center gap-3">
+                    <div className="h-2 w-2 rounded-full bg-blue-500"></div>
 
-                <div className="grid grid-cols-2 gap-y-3 gap-x-6">
-                  <div className="text-[15px] font-semibold text-white">✔ ANNAITE</div>
-                  <div className="text-[15px] font-semibold text-white">✔ AUFINE</div>
-                  <div className="text-[15px] font-semibold text-white">✔ KAPSEN</div>
-                  <div className="text-[15px] font-semibold text-white">✔ ROADTRACK</div>
+                    <h3 className="text-xl font-black text-white">
+                        Официальный дистрибьютор
+                    </h3>
+                    </div>
+
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                {["ANNAITE", "AUFINE", "KAPSEN", "ROADTRACK"].map((brand) => (
+                    <div
+                    key={brand}
+                    className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-3 transition hover:border-blue-400/40 hover:bg-white/10"
+                    >
+                    <div className="flex h-6 w-6 items-center justify-center rounded-full bg-blue-600 text-sm font-bold text-white">
+                        ✓
+                    </div>
+
+                    <span className="font-semibold tracking-wide text-white">
+                        {brand}
+                    </span>
+                    </div>
+                ))}
                 </div>
               </div>
 
@@ -344,7 +354,7 @@ export default function Home() {
               },
               {
                 title: "Официальный дистрибьютор",
-                text: "Поставляем оригинальную продукцию ANNAITE и работаем с проверенными брендами.",
+                text: "Поставляем оригинальную продукцию ANNAITE, KAPSEN, AUFINE, ROADTRACK и YONGZHENG.",
               },
               {
                 title: "Профессиональный подбор",
