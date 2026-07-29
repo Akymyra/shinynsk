@@ -13,7 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ВШК Альянс-Импорт",
+  metadataBase: new URL("https://www.shinynsk.ru"),
+  title: {
+  default: "ВШК Альянс-Импорт",
+  template: "%s",
+},
   description: "Официальный поставщик грузовых шин из Китая и Вьетнама в Новосибирске. ROADTRACK, ANNAITE, KAPSEN, AUFINE. Продажа грузовых шин, дисков и шиномонтаж.",
   icons: {
     icon: "/favicon-vshk.png",
@@ -27,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="ru"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
