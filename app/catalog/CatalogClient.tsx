@@ -643,7 +643,7 @@ export default function CatalogPage() {
           </div>
 
           <h1 className="text-4xl font-black md:text-5xl">
-            Грузовые шины и диски
+            Грузовые шины
           </h1>
 
           <p className="mt-5 max-w-3xl text-lg text-zinc-400">

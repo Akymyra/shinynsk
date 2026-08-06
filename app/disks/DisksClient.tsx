@@ -120,7 +120,7 @@ export default function DisksPage() {
           </div>
 
           <h1 className="text-4xl font-black md:text-5xl">
-            Грузовые шины и диски
+            Грузовые диски
           </h1>
 
           <p className="mt-5 max-w-3xl text-lg text-zinc-400">
